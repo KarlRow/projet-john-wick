@@ -1,3 +1,17 @@
-body{
-    background-color: 010101;
+#titre-image{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+body{
+    color: 7EB0E3;
+    background-color: 010101;
+    
+
+}  
+body h1{
+font-size: 5rem;
+}
+
