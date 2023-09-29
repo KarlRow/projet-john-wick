@@ -1,4 +1,31 @@
-body{
-    background-color: 010101;
-    color: 7EB0E3;
+@font-face{
+    font-family: JWfont;
+    src:url(commadorNormal.ttf);}
+    
+    body{
+     background-color: 010101;
+     color: 7EB0E3;
 }
+    body .profil1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+    body h1 {font-family: JWfont; 
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+    }
+#titre-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#titre-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }

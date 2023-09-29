@@ -1,17 +1,72 @@
-#titre-image{
-    display:flex;
+@font-face{
+    font-family: JWfont;
+    src:url(commadorNormal.ttf);
+}
+
+
+
+#titre-image {
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-body{
+body {
     color: 7EB0E3;
     background-color: 010101;
     
 
-}  
-body h1{
-font-size: 5rem;
+}
+
+body h1 {
+    font-size: 5rem;
+    font-family: JWfont;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body .profil1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body #cof {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background-cof {
+    background-image: url(../images/cof.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vw
+}
+
+.position {
+    position: relative;
+    top: 0;
+    left: 0
+}
+
+.positionimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+.positiontext {
+
+    text-align: center;
+    vertical-align: middle;
+}
+
+img {
+    width: 100%
 }
 
