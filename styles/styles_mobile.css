@@ -129,8 +129,47 @@ body main img {
     height : 108px;
     margin-top: 1rem;
 }
+
 body main .wetried{
     background-color: 212121;
+    width: 86%;
+    height: fit-content;
     margin-top: 2rem;
     color: 7EB0E3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
+body main .wetried h4 {
+   color: 831EAA;
+   text-align: center;
+}
+body main .wetried p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+ }
+ body main .wetried #viggo {
+    text-align: center;
+    height: 40%;
+    width: 40%;
+ }
+ /* body main .wetried #viggo2 {
+    text-align: center;
+    height: 40%;
+    width: 40%;
+ } */
+ body main .wetried #iosef {
+    text-align: center;
+    height: 45%;
+    width: 45%;
+ }
+ body main .wetried #santino {
+    text-align: center;
+    height: 45%;
+    width: 45%;
+ }
