@@ -1,3 +1,254 @@
-body{
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+
+@font-face {
+
+    font-family: JWfont;
+    src: url(commadorNormal.ttf);
+
+}
+
+
+
+body {
+
     background-color: 010101;
+    color: 7EB0E3;
+
+}
+
+
+
+nav {
+
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 12%;
+    height: 130rem;
+    right: 2%;
+    top: 30%;
+    padding: 3px;
+    /*background-image: url("../images/remotenobutton.png");
+    background-size: cover;*/
+    background-color: rgb(176, 176, 176);
+    border: 4px solid;
+    box-sizing: 2px;
+    border-color: rgb(86, 86, 86);
+    border-radius: 5%;
+
+}
+
+
+
+/* body nav #remote
+{
+    position: fixed;
+    width : 12.5%;
+    height : auto;
+    right: 2.2%;
+    top: 25%;
+} */
+
+
+
+body nav #buttononoff {
+
+    width: 10rem;
+    height: 10rem;
+    margin-left: 33rem;
+    margin-bottom: 30rem;
+
+}
+
+
+
+body nav #buttonhome {
+
+    width: 20rem;
+    height: 20rem;
+    right: 4.7%;
+    top: 27.5%;
+    margin-bottom: 30rem;
+
+}
+
+
+
+body nav #buttoncv {
+
+    width: 20rem;
+    height: 20rem;
+    right: 4.7%;
+    top: 32.5%;
+
+}
+
+
+
+body nav #buttonhistory {
+
+    width: 20rem;
+    height: 20rem;
+    right: 4.34%;
+    top: 37.5%;
+
+}
+
+
+
+body nav #buttonsecret {
+
+    width: 20rem;
+    height: 20rem;
+    right: 4.34%;
+    top: 42.5%;
+
+}
+
+
+
+body .img-cv {
+
+    width: 100%;
+    height: 50rem;
+
+}
+
+
+
+#history_title {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+
+}
+
+
+
+h1 {
+
+    font-size: 25rem;
+    font-family: JWfont;
+    height: 25rem;
+    margin-top: 15rem;
+
+}
+
+
+
+h2 {
+
+    font-size: 22rem;
+    font-family: JWfont;
+    margin-bottom: 10rem;
+    color: #551051;
+
+}
+
+
+
+.title-movie-summary {
+
+    text-align: center;
+    font-size: 9rem;
+    margin-bottom: 10rem;
+   
+}
+
+
+
+
+body #movie_summary {
+
+    /* background-color: rgba(128, 128, 128, 0.323);
+    height: 15rem;
+    width: 68%; */
+    /* margin: auto; */
+    
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+
+}
+
+
+
+.flex-chapter {
+    
+    height: 20rem;
+    width: 87%;
+   
+}
+
+
+
+.p1 {
+    display: inline-block;
+    background-color:rgba(128, 128, 128, 0.323);
+    height: 70rem;
+    width:45%;
+    border-radius: 5%;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    margin:30px;
+    font-size: 7rem;
+    
+}
+
+body .img-cv2 {
+
+    width: 60%;
+    height: 110rem;
+    display: block;
+    margin: auto;
+    margin-top: 150rem;
+    margin-bottom: 25rem;
+    
+
+}
+
+
+
+body #movie_resume {
+
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.323);
+    width: 70%;
+    height: 150rem;
+    margin: 5rem;
+    border-radius: 5%;
+    margin-left: 58rem;
+    
+}
+
+.icon-text {
+
+    font-size: 8rem;
+    margin-top: 10rem;
+    margin-left: 5rem;
+
+}
+
+
+
+.icon-movie {
+
+    height: 25rem;
+    width: 25rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    
+    
+
 }
