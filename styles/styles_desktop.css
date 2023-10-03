@@ -31,7 +31,7 @@ nav {
     flex-direction: column;
     /* justify-content: space-around; */
     align-items: center;
-    width: 12%;
+    width: 10%;
     height: 29.5rem;
     right: 1.5%;
     top: 34%;
@@ -39,7 +39,7 @@ nav {
     /*background-image: url("../images/remotenobutton.png");
     background-size: cover;*/
     background-color: rgb(176, 176, 176);
-    border: 15px solid;
+    border: 11px solid;
     box-sizing: 2px;
     border-color: rgb(86, 86, 86);
     border-radius: 5rem;
@@ -61,9 +61,9 @@ nav {
 
 body nav #buttononoff {
 
-    width: 2.5rem;
-    height: 2.5rem;
-    margin-left: 5rem;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 4.5rem;
     margin-top: 1rem;
     
 
@@ -73,8 +73,8 @@ body nav #buttononoff {
 
 body nav #buttonhome {
 
-    width: 5.5rem;
-    height: 5.5rem;
+    width: 5.7rem;
+    height: 5.7rem;
     margin-top: 0.3rem;
     
 
@@ -84,8 +84,8 @@ body nav #buttonhome {
 
 body nav #buttoncv {
 
-    width: 5.5rem;
-    height: 5.5rem;
+    width: 5.7rem;
+    height: 5.7rem;
     margin-top: 0.3rem;
     
 
@@ -95,8 +95,8 @@ body nav #buttoncv {
 
 body nav #buttonhistory {
 
-    width: 5.5rem;
-    height: 5.5rem;
+    width: 5.7rem;
+    height: 5.7rem;
     margin-top: 0.3rem;
     
 
@@ -106,8 +106,8 @@ body nav #buttonhistory {
 
 body nav #buttonsecret {
 
-    width: 5.5rem;
-    height: 5.5rem;
+    width: 5.7rem;
+    height: 5.7rem;
     margin-top: 0.3rem;
     
     
@@ -192,26 +192,76 @@ body #movie_summary {
 
 
 
-.flex-chapter {
-    
-    height: 20rem;
-    width: 87%;
-   
+.p1 {
+
+    position: relative;
+    height: 60%;
+    width: 44.5%;
+    right: 2rem;
+    top: 15.8rem;
+    background-color: rgba(128, 128, 128, 0.323);
+    border-radius: 5%;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    font-size: 0.8rem;
+
 }
 
 
 
-.p1 {
-    display: inline-block;
-    background-color:rgba(128, 128, 128, 0.323);
-    height: 40rem;
-    width:45%;
-    border-radius: 3.5%;
-    padding-left: 3rem;
-    padding-top: 2rem;
-    margin:30px;
-    font-size: 2rem;
+.p2 {
+
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.323);
+    height: 60%;
+    width: 44%;
+    left: 40rem;
+    bottom: 11.7rem;
+    border-radius: 5%;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    font-size: 0.8rem;
+
+
+}
+
+
+
+.p3 {
+
+    position: relative;
+    height: 60%;
+    width: 45%;
+    right: 2rem;
+    bottom: 11rem;
+    background-color: rgba(128, 128, 128, 0.323);
+    border-radius: 5%;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    font-size: 0.8rem;
+
+}
+
+
+
+.p4 {
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.323);
+    height: 60%;
+    width: 45%;
+    left: 9rem;
+    bottom: 23.6rem;
+    border-radius: 5%;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    font-size: 0.8rem;
     
+}
+
+p {
+
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 body .img-cv2 {
