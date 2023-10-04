@@ -1,3 +1,218 @@
+@font-face{
+    font-family: JWfont;
+    src:url(commadorNormal.ttf);
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ h1, h2, h3 {
+    font-family: JWfont;
+}  
 body{
     background-color: 010101;
+    font-weight: normal;
+    position: relative;
 }
+
+h1{
+    display: inline;
+    color: #7EB0E3;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    margin: 0 ;
+    margin-top: 1rem;
+}
+h2{
+    color: #551051;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    margin: 0 ;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #224297;
+    font-size: 1.2rem;
+    margin: 1rem 21.5% 0 21.5%;
+    letter-spacing: 0.3rem;
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width : 12.5%;
+    height : 140px;
+    right: 2%;
+    top: 20%;
+    padding: 3px;
+    /*background-image: url("../images/remotenobutton.png");
+    background-size: cover;*/
+    background-color: rgb(176, 176, 176);
+     border: 4px solid;
+    box-sizing: 2px;
+    border-color: rgb(86, 86, 86);
+    border-radius: 10px;
+}
+/* body nav #remote
+{
+    position: fixed;
+    width : 12.5%;
+    height : auto;
+    right: 2.2%;
+    top: 25%;
+} */
+body nav #buttononoff
+{
+    width : 0.5rem;
+    height : 0.5rem;
+    margin-left: 1.2rem;
+}
+body nav #buttonhome
+{
+    /*width : 20%;
+    height : 20%;*/
+    max-width: 25px;
+    max-height: 25px;
+    right: 4.7%;
+    top: 27.5%;
+}
+body nav #buttoncv
+{
+    width : 25px;
+    height : 25px;
+    right: 4.7%;
+    top: 32.5%;
+}
+body nav #buttonhistory
+{
+    width : 25px;
+    height : 25px;
+    right: 4.34%;
+    top: 37.5%;
+}
+body nav #buttonsecret
+{
+    width : 25px;
+    height : 25px;
+    right: 4.34%;
+    top: 42.5%;
+}
+
+body main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 16%;
+}
+
+body main #TV {
+    width : 200px;
+    height : 108px;
+    margin-top: 1rem;
+}
+
+body main .wetried{
+    background-color: 212121;
+    width: 86%;
+    height: fit-content;
+    margin-top: 2rem;
+    color: 7EB0E3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+body main .wetried h4 {
+   color: 831EAA;
+   text-align: center;
+   padding-right: 5%;
+}
+/* body main .wetried p {
+    margin: 0;
+    padding: 0;
+ } */
+
+body main .wetried .vilainsBlock{
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    align-items: center;
+}
+body main .wetried .vilainsBlock p{
+margin-left: 5%;
+}
+body main .wetried .vilainsBlock #viggoDesc{
+    padding-left: 3%;
+}
+body main .wetried .vilainsBlock #iosefDesc{
+    padding-left: 1%;
+}
+body main .wetried .vilainsBlock #cassianDesc{
+    padding-left: 0.8%;
+}
+body main .wetried .vilainsBlock #cassianDesc{
+    padding-left: 10%;
+}
+body main .wetried .vilainsBlock #adjucatorDesc{
+    padding-left: 5%;
+}
+body main .wetried .vilainsBlock #zeroDesc{
+    padding-left: 10%;
+}
+body main .wetried .vilainsBlock #marquisDesc{
+    padding-left: 8%;
+}
+
+.allDesc{
+    display: none;
+}
+
+ body main .wetried .vilainsBlock #viggoImg {
+    height: 40%;
+    width: 40%;
+ }
+
+ body main .wetried .vilainsBlock #iosefImg {
+
+    height: 45%;
+    width: 45%;
+ }
+ body main .wetried .vilainsBlock #santinoImg {
+
+    height: 45%;
+    width: 45%;
+ }
+ body main .wetried .vilainsBlock #cassianImg {
+
+    height: 35%;
+    width: 35%;
+ }
+ body main .wetried .vilainsBlock #adjucatorImg {
+
+    height: 40%;
+    width: 40%;
+ }
+ body main .wetried .vilainsBlock #zeroImg {
+
+    height: 35%;
+    width: 35%;
+ }
+ body main .wetried .vilainsBlock #marquisImg {
+
+    height: 35%;
+    width: 35%;
+ }
