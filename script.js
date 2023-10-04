@@ -12,8 +12,10 @@ for (const img of allVilains) {
 img.addEventListener('click',function(e) {
     if (window.getComputedStyle(e.target.nextElementSibling).display === "block"){
     e.target.nextElementSibling.nextElementSibling.style.display ="block"
+    e.target.nextElementSibling.nextElementSibling.style.color ="#2953c7"
     e.target.nextElementSibling.style.display = "none"
     e.target.parentElement.style.flexDirection = "column"
+    
     }
     else{
         e.target.nextElementSibling.nextElementSibling.style.display ="none"

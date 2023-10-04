@@ -125,6 +125,7 @@ body main #TV {
 
 body main .wetried{
     background-color: 212121;
+    border-radius: 10px;
     width: 86%;
     height: fit-content;
     margin-top: 2rem;
@@ -137,10 +138,15 @@ body main .wetried{
     padding-right: 5%;
 }
 body main .wetried .h4Secret {
-   color: #a00d99;
+    background-color: #333232;
+   color:  #7EB0E3;
    text-align: center;
-   padding-right: 5%;
-   font-size: 1.2rem;
+   margin-right: 10%;
+   margin-top: 10%;
+   margin-bottom: 5%;
+   border-radius: 10px;
+   font-weight:bolder;
+   font-size: 1.7rem;
 }
 /* body main .wetried p {
     margin: 0;
@@ -156,6 +162,9 @@ body main .wetried .vilainsBlock{
 body main .wetried .vilainsBlock p{
 margin-left: 5%;
 }
+body main .wetried .vilainsBlock span{
+    color: #83147d;
+    }
 body main .wetried .vilainsBlock #viggoDesc{
     padding-left: 3%;
 }
