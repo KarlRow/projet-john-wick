@@ -121,8 +121,8 @@ body .mainSecret{
 }
 
 body main #TV {
-    width : 200px;
-    height : 108px;
+    width : 800px;
+    height : 459px;
     margin-top: 1rem;
 }
 
@@ -157,6 +157,9 @@ body main .wetried .vilainsBlock{
 }
 body main .wetried .vilainsBlock p{
 margin-left: 5%;
+}
+body main .wetried .vilainsBlock span{
+    color: #83147d;
 }
 body main .wetried .vilainsBlock #viggoDesc{
     padding-left: 3%;

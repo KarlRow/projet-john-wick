@@ -12,7 +12,11 @@ for (const img of allVilains) {
 img.addEventListener('click',function(e) {
     if (window.getComputedStyle(e.target.nextElementSibling).display === "block"){
     e.target.nextElementSibling.nextElementSibling.style.display ="block"
-    e.target.nextElementSibling.nextElementSibling.style.color ="#2953c7"
+    e.target.nextElementSibling.nextElementSibling.style.color ="white"
+    e.target.nextElementSibling.nextElementSibling.style.backgroundColor ="#333232"
+    e.target.nextElementSibling.nextElementSibling.style.padding ="5%"
+    e.target.nextElementSibling.nextElementSibling.style.marginRight ="10%"
+    e.target.nextElementSibling.nextElementSibling.style.borderRadius ="10px"
     e.target.nextElementSibling.style.display = "none"
     e.target.parentElement.style.flexDirection = "column"
     
