@@ -77,7 +77,6 @@ body nav #buttonhome {
     max-width: 25px;
     max-height: 25px;
 
-
 }
 
 
@@ -87,7 +86,6 @@ body nav #buttoncv {
     width: 25px;
     height: 25px;
 
-
 }
 
 
@@ -96,7 +94,6 @@ body nav #buttonhistory {
 
     width: 25px;
     height: 25px;
-
 
 }
 
@@ -159,114 +156,54 @@ h2 {
     padding-left: 0.5rem;
     padding-top: 0.5rem;
 
-
 }
 
 
+#box_summary {
 
-
-body #movie_summary {
-
-    /* background-color: rgba(128, 128, 128, 0.323);
-    height: 15rem;
-    width: 68%; */
-    /* margin: auto; */
-    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    height: 20rem;
+    width: 84%;
     margin-bottom: 2rem;
-    font-size: 0.8rem;
-    border-radius: 10px;
+    margin-right: 20%;
+    padding: 1rem;
+    padding-left: 5rem;
 
 }
-
-
 
 .p1 {
 
-    position: relative;
-    height: 22%;
-    width: 45%;
-    right: 2rem;
-    top: 0.9rem;
+    display: block;
+    width: 60%;
+    height: 9rem;
     background-color: rgba(128, 128, 128, 0.323);
     border-radius: 5%;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     padding-left: 0.5rem;
     padding-top: 0.5rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 
-}
-
-
-
-.p2 {
-
-    position: relative;
-    background-color: rgba(128, 128, 128, 0.323);
-    height: 22%;
-    width: 45%;
-    left: 9rem;
-    bottom: 11.7rem;
-    border-radius: 5%;
-    padding-left: 0.5rem;
-    padding-top: 0.5rem;
-    font-size: 0.8rem;
-
-
-}
-
-
-
-.p3 {
-
-    position: relative;
-    height: 22%;
-    width: 45%;
-    right: 2rem;
-    bottom: 11rem;
-    background-color: rgba(128, 128, 128, 0.323);
-    border-radius: 5%;
-    padding-left: 0.5rem;
-    padding-top: 0.5rem;
-    font-size: 0.8rem;
-
-}
-
-
-
-.p4 {
-    position: relative;
-    background-color: rgba(128, 128, 128, 0.323);
-    height: 22%;
-    width: 45%;
-    left: 9rem;
-    bottom: 23.6rem;
-    border-radius: 5%;
-    padding-left: 0.5rem;
-    padding-top: 0.5rem;
-    font-size: 0.8rem;
-    
 }
 
 p {
 
     margin-top: 0.5rem;
     margin-right: 0.5rem;
+
 }
 
 
 
 body .img-cv2 {
-    position: relative;
-
+    display: block;
+    margin-bottom: 2rem;
     width: 75%;
     height: 9rem;
-    display: block;
-    bottom: 24rem;
     margin-left: 2.5rem;
-    
-    
-    
-
-
 
 }
 
@@ -274,18 +211,15 @@ body .img-cv2 {
 
 body #movie_resume {
 
-    position: relative;
     background-color: rgba(128, 128, 128, 0.323);
     width: 59%;
     height: 150;
-    bottom: 24rem;
     margin-left: 4.5rem;
     margin-top: 2rem;
     border-radius: 10px;
     padding-left: 0.5rem;
-    padding-top: 0.5rem;
+    padding-top: 0.3rem;
     font-size: 1.2rem;
-    
 
 }
 
@@ -294,9 +228,10 @@ body #movie_resume {
 .icon-text {
 
     position: relative;
+    bottom: 1.3rem;
     font-size: 1rem;
     margin-left: 2.5rem;
-    bottom: 1.3rem;
+
 
 
 
@@ -311,8 +246,4 @@ body #movie_resume {
     margin-left: 0.2rem;
     margin-top: 0.2rem;
     
-
-
-
-
 }
