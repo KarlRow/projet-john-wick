@@ -44,7 +44,7 @@ h3{
     letter-spacing: 0.3rem;
 }
 
-nav{  
+nav{
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -55,16 +55,14 @@ nav{
     right: 2%;
     top: 20%;
     padding: 3px;
-    
     /*background-image: url("../images/remotenobutton.png");
     background-size: cover;*/
     background-color: rgb(176, 176, 176);
-     border: 4px solid; 
+     border: 4px solid;
     box-sizing: 2px;
     border-color: rgb(86, 86, 86);
     border-radius: 10px;
 }
-
 /* body nav #remote
 {
     position: fixed;
@@ -75,12 +73,11 @@ nav{
 } */
 body nav #buttononoff
 {
-
     width : 0.5rem;
     height : 0.5rem;
     margin-left: 1.2rem;
 }
-body nav #buttonhome    
+body nav #buttonhome
 {
     /*width : 20%;
     height : 20%;*/
@@ -89,32 +86,28 @@ body nav #buttonhome
     right: 4.7%;
     top: 27.5%;
 }
-body nav #buttoncv    
+body nav #buttoncv
 {
     width : 25px;
     height : 25px;
     right: 4.7%;
     top: 32.5%;
 }
-body nav #buttonhistory   
+body nav #buttonhistory
 {
     width : 25px;
     height : 25px;
     right: 4.34%;
     top: 37.5%;
 }
-body nav #buttonsecret    
+body nav #buttonsecret
 {
     width : 25px;
     height : 25px;
     right: 4.34%;
     top: 42.5%;
 }
-/* nav #remote{
 
-    width : 12.5%;
-    height : auto;
-} */
 body main{
     display: flex;
     justify-content: center;
@@ -124,7 +117,7 @@ body main{
     margin-right: 16%;
 }
 
-body main img {
+body main #TV {
     width : 200px;
     height : 108px;
     margin-top: 1rem;
@@ -138,38 +131,88 @@ body main .wetried{
     color: 7EB0E3;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     padding-left: 10%;
-    padding-right: 10%;
+    padding-right: 5%;
 }
 body main .wetried h4 {
    color: 831EAA;
    text-align: center;
+   padding-right: 5%;
 }
-body main .wetried p {
+/* body main .wetried p {
     margin: 0;
     padding: 0;
-    text-align: center;
-
- }
- body main .wetried #viggo {
-    text-align: center;
-    height: 40%;
-    width: 40%;
- }
- /* body main .wetried #viggo2 {
-    text-align: center;
-    height: 40%;
-    width: 40%;
  } */
- body main .wetried #iosef {
-    text-align: center;
+
+body main .wetried .vilainsBlock{
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    align-items: center;
+}
+body main .wetried .vilainsBlock p{
+margin-left: 5%;
+}
+body main .wetried .vilainsBlock #viggoDesc{
+    padding-left: 3%;
+}
+body main .wetried .vilainsBlock #iosefDesc{
+    padding-left: 1%;
+}
+body main .wetried .vilainsBlock #cassianDesc{
+    padding-left: 0.8%;
+}
+body main .wetried .vilainsBlock #cassianDesc{
+    padding-left: 10%;
+}
+body main .wetried .vilainsBlock #adjucatorDesc{
+    padding-left: 5%;
+}
+body main .wetried .vilainsBlock #zeroDesc{
+    padding-left: 10%;
+}
+body main .wetried .vilainsBlock #marquisDesc{
+    padding-left: 8%;
+}
+
+.allDesc{
+    display: none;
+}
+
+ body main .wetried .vilainsBlock #viggoImg {
+    height: 40%;
+    width: 40%;
+ }
+
+ body main .wetried .vilainsBlock #iosefImg {
+
     height: 45%;
     width: 45%;
  }
- body main .wetried #santino {
-    text-align: center;
+ body main .wetried .vilainsBlock #santinoImg {
+
     height: 45%;
     width: 45%;
+ }
+ body main .wetried .vilainsBlock #cassianImg {
+
+    height: 35%;
+    width: 35%;
+ }
+ body main .wetried .vilainsBlock #adjucatorImg {
+
+    height: 40%;
+    width: 40%;
+ }
+ body main .wetried .vilainsBlock #zeroImg {
+
+    height: 35%;
+    width: 35%;
+ }
+ body main .wetried .vilainsBlock #marquisImg {
+
+    height: 35%;
+    width: 35%;
  }
