@@ -126,7 +126,7 @@ body main #TV {
 body main .wetried{
     background-color: 212121;
     border-radius: 10px;
-    width: 86%;
+    width: 95%;
     height: fit-content;
     margin-top: 2rem;
     color: 7EB0E3;
@@ -161,35 +161,39 @@ body main .wetried .vilainsBlock{
 }
 body main .wetried .vilainsBlock p{
 margin-left: 5%;
+font-size: 1.2rem;
 }
 body main .wetried .vilainsBlock span{
     color: #83147d;
     }
 body main .wetried .vilainsBlock #viggoDesc{
-    padding-left: 3%;
+    padding-left: 2%;
 }
 body main .wetried .vilainsBlock #iosefDesc{
+    padding-left: 0%;
+}
+body main .wetried .vilainsBlock #santinoDesc{
     padding-left: 1%;
 }
 body main .wetried .vilainsBlock #cassianDesc{
-    padding-left: 0.8%;
-}
-body main .wetried .vilainsBlock #cassianDesc{
-    padding-left: 10%;
+    padding-left: 11%;
 }
 body main .wetried .vilainsBlock #adjucatorDesc{
-    padding-left: 5%;
+    padding-left: 6%;
 }
 body main .wetried .vilainsBlock #zeroDesc{
-    padding-left: 10%;
+    padding-left: 12%;
 }
 body main .wetried .vilainsBlock #marquisDesc{
-    padding-left: 8%;
+    padding-left: 10%;
 }
 
 .allDesc{
     display: none;
     font-style: italic;
+}
+.allDesc .noneofthatWorked{
+ color: #3163ec;
 }
 
  body main .wetried .vilainsBlock #viggoImg {
@@ -226,4 +230,7 @@ body main .wetried .vilainsBlock #marquisDesc{
 
     height: 35%;
     width: 35%;
+ }
+ #goal{
+    color: #3163ec;
  }
