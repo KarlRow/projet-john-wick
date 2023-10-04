@@ -23,14 +23,15 @@ body{
 h1{
     display: inline;
     color: #7EB0E3;
-    font-size: 2rem;
+    font-size: 10rem;
     letter-spacing: 0.5rem;
     margin: 0 ;
-    margin-top: 1rem;
+    margin-top: 1rem; 
 }
+
 h2{
     color: #551051;
-    font-size: 2rem;
+    font-size: 10rem;
     letter-spacing: 0.5rem;
     margin: 0 ;
 }
@@ -39,7 +40,9 @@ h3{
     justify-content: center;
     text-align: center;
     color: #224297;
-    font-size: 1.2rem;
+    font-size: 5rem;
+    padding-left: 10%;
+    padding-right: 10%;
     margin: 1rem 21.5% 0 21.5%;
     letter-spacing: 0.3rem;
 }
@@ -58,7 +61,7 @@ nav{
     /*background-image: url("../images/remotenobutton.png");
     background-size: cover;*/
     background-color: rgb(176, 176, 176);
-     border: 4px solid;
+    border: 4px solid;
     box-sizing: 2px;
     border-color: rgb(86, 86, 86);
     border-radius: 10px;
@@ -81,34 +84,34 @@ body nav #buttonhome
 {
     /*width : 20%;
     height : 20%;*/
-    max-width: 25px;
-    max-height: 25px;
+    width : 1.6rem;
+    height : 1.6rem;
     right: 4.7%;
     top: 27.5%;
 }
 body nav #buttoncv
 {
-    width : 25px;
-    height : 25px;
+    width : 1.6rem;
+    height : 1.6rem;
     right: 4.7%;
     top: 32.5%;
 }
 body nav #buttonhistory
 {
-    width : 25px;
-    height : 25px;
+    width : 1.6rem;
+    height : 1.6rem;
     right: 4.34%;
     top: 37.5%;
 }
 body nav #buttonsecret
 {
-    width : 25px;
-    height : 25px;
+    width : 1.6rem;
+    height : 1.6rem;
     right: 4.34%;
     top: 42.5%;
 }
 
-body main{
+body .mainSecret{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -179,6 +182,7 @@ body main .wetried .vilainsBlock #marquisDesc{
 
 .allDesc{
     display: none;
+    font-style: italic;
 }
 
  body main .wetried .vilainsBlock #viggoImg {
