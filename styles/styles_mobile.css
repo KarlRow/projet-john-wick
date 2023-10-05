@@ -34,7 +34,7 @@ nav {
     width: 12.5%;
     height: 140px;
     right: 2%;
-    top: 18%;
+    top: 17%;
     padding: 3px;
     /*background-image: url("../images/remotenobutton.png");
     background-size: cover;*/
@@ -43,6 +43,7 @@ nav {
     box-sizing: 2px;
     border-color: rgb(86, 86, 86);
     border-radius: 5rem;
+    opacity: 0.8;
 
 }
 
@@ -129,17 +130,17 @@ body .img-cv {
 
 
 
-h1 {
+.h1History {
 
     font-size: 5rem;
     font-family: JWfont;
-    height: 5.5rem;
+    height: 5rem;
 
 }
 
 
 
-h2 {
+.h2History {
 
     font-size: 4rem;
     font-family: JWfont;
@@ -149,61 +150,79 @@ h2 {
 
 
 
-.title-movie-summary {
+.title-movie-synopsis {
 
     text-align: center;
     margin-bottom: 1rem;
     padding-left: 0.5rem;
     padding-top: 0.5rem;
+    font-size: 1.5rem;
+    font-family: Manrope;
 
 }
 
 
-#box_summary {
+#box_synopsis {
 
-    display: flex;
-    flex-wrap: wrap;
-    background-color: aliceblue;
-    height: 20rem;
-    width: 84%;
-    margin-bottom: 2rem;
+    display: grid;
+    /* grid-template-columns: repeat(2, 5fr); */
+    grid-template-rows: repeat(2, 8rem);
+    /* column-gap: 10px;
+    row-gap: 10px; */
+    gap: 8px;
+    height: 33rem;
+    width: 95.6%;
     margin-right: 20%;
-    padding: 1rem;
-    padding-left: 5rem;
+    /* background-color: aliceblue; */
 
+
+    
 }
 
 .p1 {
 
     display: block;
-    width: 60%;
-    height: 9rem;
+    width: 70%;
+    height: 8rem;
+    margin-left: 4rem;
     background-color: rgba(128, 128, 128, 0.323);
     border-radius: 5%;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    padding-left: 0.5rem;
-    padding-top: 0.5rem;
     font-size: 0.9rem;
 
 }
 
-p {
 
+
+.h4Movie {
+    
+    font-size: 1.2rem;
+    text-align: center;
     margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    color: #84187e;
+    
+}
+
+#box_synopsis p {
+    
     margin-right: 0.5rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    font-family: Manrope;
 
 }
 
 
 
+
 body .img-cv2 {
-    display: block;
-    margin-bottom: 2rem;
+    
+    margin-bottom: 1rem;
+    margin-top: 2.5rem;
+    margin-left: 3.4rem;
     width: 75%;
     height: 9rem;
-    margin-left: 2.5rem;
+   
 
 }
 
@@ -212,15 +231,36 @@ body .img-cv2 {
 body #movie_resume {
 
     background-color: rgba(128, 128, 128, 0.323);
-    width: 59%;
-    height: 150;
-    margin-left: 4.5rem;
-    margin-top: 2rem;
+    width: 80%;
+    margin-left: 2.7rem;
+    margin-bottom: 2rem;
     border-radius: 10px;
-    padding-left: 0.5rem;
-    padding-top: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
     font-size: 1.2rem;
+    
 
+}
+
+.title-movie-resume {
+
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: Manrope;
+
+}
+
+#movie_resume p {
+
+    
+    margin-bottom: 1rem;
+    font-family: Manrope;
+    text-align: center;
+    font-size: 0.9rem;
+    padding-bottom: 1rem;
+    
 }
 
 
@@ -229,12 +269,11 @@ body #movie_resume {
 
     position: relative;
     bottom: 1.3rem;
-    font-size: 1rem;
-    margin-left: 2.5rem;
-
-
-
-
+    font-size: 1.5rem;
+    text-align: center;
+    color: #84187e;
+    
+   
 }
 
 
@@ -243,7 +282,8 @@ body #movie_resume {
 
     height: 1.5rem;
     width: 1.5rem;
-    margin-left: 0.2rem;
-    margin-top: 0.2rem;
+    margin-left: 4rem;
     
+    
+
 }

@@ -1,9 +1,23 @@
 * {
-
     box-sizing: border-box;
     margin: 0;
+    cursor: url('../images/iconegun30.png'), auto;
+}
+
+img:hover {
+    cursor: url('../images/jwicone.png'), auto;
+}
+
+
+
+
+@font-face {
+
+    font-family: Manrope;
+    src: url(Manrope.ttf);
 
 }
+
 
 
 @font-face {
@@ -15,6 +29,7 @@
 
 
 
+
 body {
 
     background-color: 010101;
@@ -22,7 +37,7 @@ body {
 
 }
 
-
+/* Télécommande Nav */
 
 nav {
 
@@ -43,6 +58,7 @@ nav {
     box-sizing: 2px;
     border-color: rgb(86, 86, 86);
     border-radius: 5rem;
+    opacity: 0.8;
 
 }
 
@@ -65,7 +81,7 @@ body nav #buttononoff {
     height: 2rem;
     margin-left: 4.5rem;
     margin-top: 1rem;
-    
+
 
 }
 
@@ -73,10 +89,10 @@ body nav #buttononoff {
 
 body nav #buttonhome {
 
-    width: 5.7rem;
+    width: 5rem;
     height: 5.7rem;
     margin-top: 0.3rem;
-    
+
 
 }
 
@@ -84,10 +100,10 @@ body nav #buttonhome {
 
 body nav #buttoncv {
 
-    width: 5.7rem;
+    width: 5rem;
     height: 5.7rem;
     margin-top: 0.3rem;
-    
+
 
 }
 
@@ -95,10 +111,10 @@ body nav #buttoncv {
 
 body nav #buttonhistory {
 
-    width: 5.7rem;
+    width: 5rem;
     height: 5.7rem;
     margin-top: 0.3rem;
-    
+
 
 }
 
@@ -106,12 +122,21 @@ body nav #buttonhistory {
 
 body nav #buttonsecret {
 
-    width: 5.7rem;
+    width: 5rem;
     height: 5.7rem;
     margin-top: 0.3rem;
-    
-    
 
+
+}
+
+
+/* Body */
+
+
+body .mainHistory {
+
+    margin-left: 18%;
+    margin-right: 18%;
 }
 
 
@@ -138,25 +163,25 @@ body .img-cv {
 
 
 
-h1 {
+.h1History {
 
-    font-size: 10rem;
+    font-size: 8rem;
     font-family: JWfont;
     text-align: center;
     height: 10rem;
     width: 35rem;
-    
+
 
 }
 
 
 
-h2 {
+.h2History {
 
-    font-size: 10rem;
+    font-size: 8rem;
     font-family: JWfont;
     text-align: center;
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
     margin-top: 2rem;
     color: #551051;
 
@@ -164,16 +189,15 @@ h2 {
 
 
 
-.title-movie-summary {
+.title-movie-synopsis {
+
 
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 5rem;
-    
-    
-   
-}
+    font-family: Manrope;
 
+}
 
 
 
@@ -183,10 +207,26 @@ body #movie_summary {
     height: 15rem;
     width: 68%; */
     /* margin: auto; */
-    
+
     margin-bottom: 2rem;
     font-size: 1.2rem;
-    border-radius: 10px;
+    border-radius: 15px;
+
+}
+
+
+
+#box_synopsis {
+
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2, 2fr);
+    gap: 2rem;
+    /* column-gap: 10px;
+    row-gap: 10px; */
+    width: 100%;
+    /* background-color: aliceblue; */
+
 
 }
 
@@ -194,83 +234,49 @@ body #movie_summary {
 
 .p1 {
 
-    position: relative;
-    height: 60%;
-    width: 44.5%;
-    right: 2rem;
-    top: 15.8rem;
+    display: block;
+    text-align: center;
     background-color: rgba(128, 128, 128, 0.323);
-    border-radius: 5%;
-    padding-left: 0.5rem;
-    padding-top: 0.5rem;
-    font-size: 0.8rem;
+    border-radius: 1.5rem;
+    font-size: 0.9rem;
+    padding: 2rem 1rem 2rem 1rem;
 
 }
 
 
 
-.p2 {
+.h4Movie {
 
-    position: relative;
-    background-color: rgba(128, 128, 128, 0.323);
-    height: 60%;
-    width: 44%;
-    left: 40rem;
-    bottom: 11.7rem;
-    border-radius: 5%;
-    padding-left: 0.5rem;
-    padding-top: 0.5rem;
-    font-size: 0.8rem;
-
-
-}
-
-
-
-.p3 {
-
-    position: relative;
-    height: 60%;
-    width: 45%;
-    right: 2rem;
-    bottom: 11rem;
-    background-color: rgba(128, 128, 128, 0.323);
-    border-radius: 5%;
-    padding-left: 0.5rem;
-    padding-top: 0.5rem;
-    font-size: 0.8rem;
-
-}
-
-
-
-.p4 {
-    position: relative;
-    background-color: rgba(128, 128, 128, 0.323);
-    height: 60%;
-    width: 45%;
-    left: 9rem;
-    bottom: 23.6rem;
-    border-radius: 5%;
-    padding-left: 0.5rem;
-    padding-top: 0.5rem;
-    font-size: 0.8rem;
-    
-}
-
-p {
-
+    font-size: 2.5rem;
+    text-align: center;
     margin-top: 0.5rem;
-    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    color: #84187e;
+
+
 }
+
+
+
+#box_synopsis p {
+
+    font-size: 1.4rem;
+    margin-right: 0.5rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    font-family: Manrope;
+
+
+}
+
+
 
 body .img-cv2 {
 
-    width: 60%;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    width: 100%;
     height: 30rem;
-    display: block;
-    margin: auto;
-    margin-top: 70rem;
 
 }
 
@@ -278,23 +284,51 @@ body .img-cv2 {
 
 body #movie_resume {
 
-    display: flex;
     background-color: rgba(128, 128, 128, 0.323);
-    width: 72%;
-    height: 40rem;
-    margin: 5rem;
-    margin-bottom: 10rem;
-    margin-left: 13rem;
-    border-radius: 2%;
-    
-    
+    /* height: 20rem; */
+    width: 100%;
+    border-radius: 15px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    font-size: 1.2rem;
+
+
+
 }
+
+.title-movie-resume {
+
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: Manrope;
+
+
+}
+
+
+
+#movie_resume p {
+
+
+    margin-bottom: 5rem;
+    font-family: Manrope;
+    padding-bottom: 2rem;
+
+}
+
+
 
 .icon-text {
 
-    font-size: 3rem;
-    margin-top: 3rem;
-    margin-left: 3rem;
+    position: relative;
+    bottom: 2.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #84187e;
+
 
 }
 
@@ -302,11 +336,9 @@ body #movie_resume {
 
 .icon-movie {
 
-    height:6rem;
-    width: 6rem;
-    margin-left: 2rem;
-    margin-top: 2rem;
-    
-    
+    height: 3rem;
+    width: 3rem;
+    margin-left: 19rem;
+    margin-top: 1rem;
 
 }
