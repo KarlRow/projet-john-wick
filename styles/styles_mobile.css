@@ -1,10 +1,20 @@
+* {
+
+    box-sizing: border-box;
+
+}
+
 @font-face{
     font-family: JWfont;
     src:url(commadorNormal.ttf);
 }
+
 @font-face{
     font-family: Manrope;
-    src:url(Manrope.ttf);}
+    src:url(Manrope.ttf);
+}
+
+.nav-cv,
 #navhome{
     position: fixed;
     display: flex;
@@ -19,7 +29,7 @@
     /*background-image: url("../images/remotenobutton.png");
     background-size: cover;*/
     background-color: rgb(176, 176, 176);
-     border: 4px solid;
+    border: 4px solid;
     box-sizing: 2px;
     border-color: rgb(86, 86, 86);
     border-radius: 10px;
@@ -32,12 +42,14 @@
     right: 2.2%;
     top: 25%;
 } */
+body nav #buttononoff-page2,
 body nav #buttononoffpage1
 {
     width : 0.5rem;
     height : 0.5rem;
     margin-left: 1.2rem;
 }
+body nav #buttonhome-page2,
 body nav #buttonhomepage1
 {
     /*width : 20%;
@@ -47,6 +59,7 @@ body nav #buttonhomepage1
     right: 4.7%;
     top: 27.5%;
 }
+body nav #buttoncv-page2,
 body nav #buttoncvpage1
 {
     width : 1.6rem;
@@ -54,6 +67,7 @@ body nav #buttoncvpage1
     right: 4.7%;
     top: 32.5%;
 }
+body nav #buttonhistory-page2,
 body nav #buttonhistorypage1
 {
     width : 1.6rem;
@@ -61,6 +75,8 @@ body nav #buttonhistorypage1
     right: 4.34%;
     top: 37.5%;
 }
+
+body nav #buttonsecret-page2,
 body nav #buttonsecretpage1
 {
     width : 1.6rem;
@@ -69,6 +85,203 @@ body nav #buttonsecretpage1
     top: 42.5%;
 }
 
+/* Eddy part*/
+.body-cv {
+    font-family: Manrope;
+    font-size: 1rem;
+    color: #7EB0E3;
+    background-color: #010101;
+    margin-left: 19.5%;
+    margin-right: 19.5%;
+}
+
+
+
+#bodyHistory {
+
+    background-color: 010101;
+    color: 7EB0E3;
+
+}
+
+
+
+#navHistory {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    right: 2%;
+    top: 20%;
+    background-color: rgb(176, 176, 176);
+    border: 4px solid;
+    box-sizing: 2px;
+    border-color: rgb(86, 86, 86);
+    border-radius: 10px;
+    opacity: 0.8;
+    padding: 3px;
+    width : 12.5%;
+}
+
+.h1-cv {
+    text-transform: uppercase;
+    font-family: JWfont;
+    font-weight: 700;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #7EB0E3;
+}
+
+.h2-cv {
+    text-transform: uppercase;
+    font-family: JWfont;
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: #551051;
+}
+
+.h3-cv {
+
+    color: #831EAA;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.h3-cv, img {
+    display: inline-block;
+    font-size: 1rem;
+    font-family: Manrope;
+}
+
+.h1-cv, .h2-cv {
+    text-align: center;
+}
+
+.tv-center .img-tv {
+    display: flex;
+    justify-content: center;
+}
+
+.p-cv {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    color: #7EB0E3;
+    padding: 0.5rem;
+}
+
+.contact-winston {
+    text-align: center;
+    font-weight: bold;
+    color: #dfe6ed;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.list {
+    font-size: 0.9rem;
+    list-style: inside;
+    padding-left: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.section-cv {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    background-color:#212121;
+    box-shadow: #456f99 0px 7px 25px 0px;
+}
+
+.input-cv {
+    margin: .5em;
+    padding: .5rem;
+    background-color: #9ac7f4;
+    border: none;
+    border-radius: 8px;
+}
+
+.label-cv {
+    font-size: 1rem;
+}
+.button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2.5rem;
+    text-align: center;
+    width: 50%;
+    font-family: Manrope;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: #9ac7f4;
+}
+
+/*
+Barre de progression
+*/
+
+:root {
+    --martial-art: #831EAA;
+    --fire-weapon: #c65bf1;
+    --white-weapon: #224e7a;
+    --tactical-drive: #2e77c1;
+    --infiltration: #4e9ceb;
+    --escape: #6eb1f5;
+    
+  }
+  
+  .progressbar-wrapper {
+    background-color: #dfe6e9;
+    color: white;
+    font-weight: 700;
+    border-radius: 15px;
+    width: 100%;
+  }
+  
+  .progressbar {
+    background-color: var(--progress);
+    color: rgb(193, 193, 193);
+    text-align: right;
+    padding-right: 0.5rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  
+  .progressbar[title="martial-art"] {
+     background-color: var(--martial-art);
+  }
+    
+  .progressbar[title="fire-weapon"] {
+    background-color: var(--fire-weapon);
+ }
+ 
+ .progressbar[title="white-weapon"] {
+    background-color: var(--white-weapon);
+ }
+
+ .progressbar[title="tactical-drive"] {
+    background-color: var(--tactical-drive);
+ }
+
+ .progressbar[title="infiltration"] {
+    background-color: var(--infiltration);
+ }
+
+  .progressbar[title="escape"] {
+    background-color: var(--escape);
+ }
+
+/*End of Eddy part*/
+
+/*Start of Alex Part*/
+body main,
 #titre-image {
     display: flex;
     justify-content: center;
@@ -195,11 +408,7 @@ body main .positiontextbackground-cof {
 }
 
 .navSecret{
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    
     width : 12.5%;
     height : 140px;
     right: 0.7%;
@@ -211,8 +420,18 @@ body main .positiontextbackground-cof {
     border: 4px solid;
     box-sizing: 2px;
     border-color: rgb(86, 86, 86);
-    border-radius: 10px;
+    border-radius: 5rem;
+    opacity: 0.8;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
 }
+
+
+
 /* body nav #remote
 {
     position: fixed;
@@ -221,11 +440,233 @@ body main .positiontextbackground-cof {
     right: 2.2%;
     top: 25%;
 } */
+
+
+
+body #navHistory #buttononoff {
+
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-left: 1.7rem;
+    margin-top: 0.3rem;
+
+}
+
+
+
+body #navHistory #buttonhome {
+
+    /*width : 20%;
+    height : 20%;*/
+    max-width: 25px;
+    max-height: 25px;
+
+}
+
+
+
+body #navHistory #buttoncv {
+
+    width: 25px;
+    height: 25px;
+
+}
+
+
+
+body #navHistory #buttonhistory {
+
+    width: 25px;
+    height: 25px;
+
+}
+
+
+
+body #navHistory #buttonsecret {
+
+    width: 25px;
+    height: 25px;
+
+}
+
+
+
+body .img-cv {
+
+    width: 100%;
+    height: 4rem;
+
+}
+
+
+
+#history_title {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+
+}
+
+
+
+.h1History {
+
+    font-size: 5rem;
+    font-family: JWfont;
+    height: 5rem;
+
+}
+
+
+
+.h2History {
+
+    font-size: 4rem;
+    font-family: JWfont;
+    color: #551051;
+
+}
+
+
+
+.title-movie-synopsis {
+
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+    font-family: Manrope;
+
+}
+
+
+#box_synopsis {
+
+    display: grid;
+    /* grid-template-columns: repeat(2, 5fr); */
+    grid-template-rows: repeat(2, 9rem);
+    /* column-gap: 10px;
+    row-gap: 10px; */
+    gap: 8px;
+    height: 33rem;
+    width: 95.6%;
+    /* background-color: aliceblue; */
+
+}
+
+.p1 {
+
+    display: block;
+    width: 70%;
+    height: 8rem;
+    margin-left: 4rem;
+    background-color: rgba(128, 128, 128, 0.323);
+    border-radius: 5%;
+    font-size: 0.9rem;
+    box-shadow: #456F99 0px 7px 20px 0px;
+
+}
+
+
+
+.h4Movie {
+
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    color: #84187e;
+
+}
+
+#box_synopsis p {
+
+    margin-right: 0.5rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    font-family: Manrope;
+
+}
+
+
+
+body .img-cv2 {
+
+    margin-top: 4rem;
+    width: 75%;
+    height: 9rem;
+    box-shadow: #456F99 0px 7px 30px 0px;
+
+}
+
+
+
+body #movie_resume {
+
+    background-color: rgba(128, 128, 128, 0.323);
+    width: 80%;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 1.2rem;
+    box-shadow: #456F99 0px 7px 30px 0px;
+
+}
+
+.title-movie-resume {
+
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Manrope;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+
+}
+
+
+#movie_resume p {
+
+    text-align: center;
+    font-size: 0.9rem;
+    padding-bottom: 1.5rem;
+    font-family: Manrope;
+
+}
+
+
+
+.icon-text {
+
+    bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: #84187e;
+    text-align: center;
+
+}
+
+
+
+.icon-movie {
+
+    position: relative;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-top: 0.5rem;
+    margin-left: 3.3rem;
+    top: 1.5rem;
+}
 body nav #buttononoffpage4
 {
     width : 0.5rem;
     height : 0.5rem;
     margin-left: 1.2rem;
+    position: relative;
 }
 body nav #buttonhomepage4
 {
