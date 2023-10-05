@@ -125,6 +125,7 @@ body main #TV {
     width : 200px;
     height : 108px;
     margin-top: 1rem;
+    box-shadow: #456F99 0px 7px 25px 0px;
 }
 
 body main .wetried{
@@ -238,4 +239,12 @@ body main .wetried .vilainsBlock #marquisDesc{
  }
  #goal{
     color: #3163ec;
+ }
+ #whatWeHiredYouFor{
+    font-size: 1rem;
+    background-color: #333232;
+    width: 100%;
+    padding: 10%;
+    border-radius: 10px;
+    margin-right: 5%;
  }

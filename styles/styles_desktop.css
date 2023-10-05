@@ -128,6 +128,7 @@ body main #TV {
     width : 800px;
     height : 459px;
     margin-top: 1rem;
+    box-shadow: #456F99 7px 7px 25px 0px;
 }
 
 body main .wetried{
@@ -254,4 +255,5 @@ body main .wetried .vilainsBlock #marquisDesc{
     width: 100%;
     padding: 3%;
     border-radius: 10px;
+    margin-right: 5%;
  }
