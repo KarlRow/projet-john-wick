@@ -1,18 +1,103 @@
 @font-face{
     font-family: JWfont;
+    src:url(commadorNormal.ttf);}
+    @font-face{
+        font-family: Manrope;
+        src:url(Manrope.ttf);}
+    #navhome{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width : 4%;
+        height : 140px;
+        right: 2%;
+        top: 20%;
+        padding: 3px;
+        /*background-image: url("../images/remotenobutton.png");
+        background-size: cover;*/
+        background-color: rgb(176, 176, 176);
+         border: 4px solid;
+        box-sizing: 2px;
+        border-color: rgb(86, 86, 86);
+        border-radius: 10px;
+    }
+    /* body nav #remote
+    {
+        position: fixed;
+        width : 12.5%;
+        height : auto;
+        right: 2.2%;
+        top: 25%;} */
+
+        
+    body nav #buttononoffpage1
+    {
+        width : 0.5rem;
+        height : 0.5rem;
+        margin-left: 1.2rem;
+    }
+    body nav #buttonhomepage1
+    {
+        /*width : 20%;
+        height : 20%;*/
+        max-width: 25px;
+        max-height: 25px;
+        right: 4.7%;
+        top: 27.5%;
+    }
+    body nav #buttoncvpage1
+    {
+        width : 25px;
+        height : 25px;
+        right: 4.7%;
+        top: 32.5%;
+    }
+    body nav #buttonhistorypage1
+    {
+        width : 25px;
+        height : 25px;
+        right: 4.34%;
+        top: 37.5%;
+    }
+    body nav #buttonsecretpage1
+    {
+        width : 25px;
+        height : 25px;
+        right: 4.34%;
+        top: 42.5%;
+    }
+
+    
+    #bodyHome{
+     background-color: 010101;
+     color: 7EB0E3;
+    
+}
+    body .profil1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    height: 500px;
+    width: 900px;
+    box-shadow: #456F99 0px 7px 25px 0px;
+}    
+    body .h1Home {font-family: JWfont; 
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        font-size: 300px;
+    }
+#titre-image {
     src:url(commadorNormal.ttf);
 }
 @font-face{
     font-family: Manrope;
     src:url(Manrope.ttf);
-}
-*{
-    box-sizing: border-box;
-
-  
-        cursor:url('../images/iconegun30.png'), auto;
-        img:hover {cursor : url('../images/jwicone.png'), auto;}
-       
 }
 
 header{
@@ -21,60 +106,106 @@ header{
     align-items: center;
     flex-direction: column;
 }
- h1, h2, h3 {
+
+*{
+    box-sizing: border-box;
+    cursor:url('../images/iconegun30.png'), auto;
+}
+img:hover {
+    cursor : url('../images/jwicone.png'), auto;
+}
+
+.headerSecret{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#titre-image2{
+
+    height: 300px;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    margin :auto;
+    z-index : -1;
+    
+    
+}
+
+body main .positiontextbackground-cof {
+           font-size: 30px;
+           text-align:center;
+           z-index: index 2;
+           background-image: url("../images/cof.png");
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-position: center;
+           min-height: 500px;
+           font-family: Manrope;
+}
+
+ .h1Secret, .h2Secret, .h3Secret {
     font-family: JWfont;
 }  
-.body-cv{
+.body-cv,
+.bodySecret{
     background-color: 010101;
     font-weight: normal;
     position: relative;
 }
 
-.h1-cv{
+.h1-cv,
+.h1Secret{
     display: inline;
     color: #7EB0E3;
-    font-size: 2rem;
+    font-size: 10rem;
     letter-spacing: 0.5rem;
     margin: 0 ;
-    margin-top: 1rem;
+    margin-top: 1rem; 
 }
-.h2-cv{
+.h2-cv,
+.h2Secret{
     color: #551051;
-    font-size: 2rem;
+    font-size: 10rem;
     letter-spacing: 0.5rem;
     margin: 0 ;
 }
-.h3-cv{
+
+.h3-cv,
+.h3Secret{
     display: flex;
     justify-content: center;
     text-align: center;
     color: #224297;
-    font-size: 1.2rem;
+    font-size: 5rem;
+    padding-left: 10%;
+    padding-right: 10%;
     margin: 1rem 21.5% 0 21.5%;
     letter-spacing: 0.3rem;
 }
 
-nav{  
+.navSecret{
     position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     width : 12.5%;
-    height : 140px;
+    height : 500px;
     right: 2%;
     top: 20%;
     padding: 3px;
-    
     /*background-image: url("../images/remotenobutton.png");
     background-size: cover;*/
     background-color: rgb(176, 176, 176);
-     border: 4px solid; 
+    border: 10px solid;
     box-sizing: 2px;
     border-color: rgb(86, 86, 86);
-    border-radius: 10px;
+    border-radius: 50px;
 }
-
 /* body nav #remote
 {
     position: fixed;
@@ -83,49 +214,44 @@ nav{
     right: 2.2%;
     top: 25%;
 } */
-body nav #buttononoff
+body nav #buttononoffpage4
 {
-
-    width : 0.5rem;
-    height : 0.5rem;
-    margin-left: 1.2rem;
+    width : 2rem;
+    height : 2rem;
+    margin-left: 4rem;
 }
-body nav #buttonhome    
+body nav #buttonhomepage4
 {
     /*width : 20%;
     height : 20%;*/
-    max-width: 25px;
-    max-height: 25px;
+    width :5rem;
+    height :5rem;
     right: 4.7%;
     top: 27.5%;
 }
-body nav #buttoncv    
+body nav #buttoncvpage4
 {
-    width : 25px;
-    height : 25px;
+    width :5rem;
+    height :5rem;
     right: 4.7%;
     top: 32.5%;
 }
-body nav #buttonhistory   
+body nav #buttonhistorypage4
 {
-    width : 25px;
-    height : 25px;
+    width :5rem;
+    height :5rem;
     right: 4.34%;
     top: 37.5%;
 }
-body nav #buttonsecret    
+body nav #buttonsecretpage4
 {
-    width : 25px;
-    height : 25px;
+    width : 5rem;
+    height : 5rem;
     right: 4.34%;
     top: 42.5%;
 }
-/* nav #remote{
 
-    width : 12.5%;
-    height : auto;
-} */
-body main{
+body .mainSecret{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,15 +260,28 @@ body main{
     margin-right: 16%;
 }
 
-body main img {
-    width : 200px;
-    height : 108px;
+body main #TV {
+    width : 800px;
+    height : 459px;
     margin-top: 1rem;
+    box-shadow: #456F99 7px 7px 25px 0px;
 }
+
 body main .wetried{
     background-color: 212121;
+    border-radius: 10px;
+    box-shadow: #456F99 0px 7px 25px 0px;
+    /* width: 86%; */
+    height: fit-content;
     margin-top: 2rem;
+    margin-bottom: 1rem;
     color: 7EB0E3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 5%;
 }
 
 
@@ -150,3 +289,114 @@ h1 {
     font-size: 3rem;
     color: rgb(246, 246, 246);
 }
+
+body main .wetried .h4Secret {
+    background-color: #333232;
+   color:  #7EB0E3;
+   text-align: center;
+   margin-right: 10%;
+   margin-top: 10%;
+   margin-bottom: 5%;
+   border-radius: 10px;
+   font-weight:bolder;
+   font-size: 5.5rem;
+}
+/* body main .wetried p {
+    margin: 0;
+    padding: 0;
+ } */
+
+body main .wetried .vilainsBlock{
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-aorund;
+    align-items: center;
+    width: 100%;
+}
+body main .wetried .vilainsBlock p{
+margin-left: 5%;
+font-size: 2.5rem;
+}
+body main .wetried .vilainsBlock span{
+    color: #83147d;
+}
+body main .wetried .vilainsBlock #viggoDesc{
+    padding-left: 6%;
+}
+body main .wetried .vilainsBlock #iosefDesc{
+    padding-left: 2%;
+}
+body main .wetried .vilainsBlock #santinoDesc{
+    padding-left: 4%;
+}
+body main .wetried .vilainsBlock #cassianDesc{
+    padding-left: 10%;
+}
+body main .wetried .vilainsBlock #adjucatorDesc{
+    padding-left: 5%;
+}
+body main .wetried .vilainsBlock #zeroDesc{
+    padding-left: 10%;
+}
+body main .wetried .vilainsBlock #marquisDesc{
+    padding-left: 8%;
+
+}
+
+.allDesc{
+    display: none;
+    font-style: italic;
+}
+
+ body main .wetried .vilainsBlock #viggoImg {
+    height: 25%;
+    width: 25%;
+ }
+
+ body main .wetried .vilainsBlock #iosefImg {
+
+    height: 30%;
+    width: 30%;
+    margin-top: 1rem;
+ }
+ body main .wetried .vilainsBlock #santinoImg {
+
+    height: 30%;
+    width: 30%;
+    margin-top: 1rem;
+ }
+ body main .wetried .vilainsBlock #cassianImg {
+
+    height: 25%;
+    width: 25%;
+    margin-top: 1rem;
+ }
+ body main .wetried .vilainsBlock #adjucatorImg {
+
+    height: 25%;
+    width: 25%;
+    margin-top: 1rem;
+ }
+ body main .wetried .vilainsBlock #zeroImg {
+
+    height: 27%;
+    width: 27%;
+    margin-top: 1rem;
+ }
+ body main .wetried .vilainsBlock #marquisImg {
+
+    height: 25%;
+    width: 25%;
+    margin-top: 1rem;
+ }
+ #goal{
+    color: #3163ec;
+ }
+ #whatWeHiredYouFor{
+    font-size: 2rem;
+    background-color: #333232;
+    width: 100%;
+    padding: 3%;
+    border-radius: 10px;
+    margin-right: 5%;
+ }
