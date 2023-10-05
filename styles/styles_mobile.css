@@ -124,7 +124,7 @@ body nav #buttonsecret-page2
     text-align: center;
 }
 
-.tv-center {
+.tv-center .img-tv {
     display: flex;
     justify-content: center;
 }
