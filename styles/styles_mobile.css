@@ -1,7 +1,5 @@
 * {
-
     box-sizing: border-box;
-
 }
 
 @font-face{
@@ -14,7 +12,7 @@
     src:url(Manrope.ttf);
 }
 
-.nav-cv,
+.nav-cv, #navHistory,
 #navhome,.navSecret {
     position: fixed;
     display: flex;
@@ -23,66 +21,60 @@
     align-items: center;
     width : 12.5%;
     height : 140px;
-    right: 2%;
-    top: 30%;
+    right: 1%;
+    top: 22%;
     padding: 3px;
-    /*background-image: url("../images/remotenobutton.png");
-    background-size: cover;*/
     background-color: rgb(176, 176, 176);
     border: 4px solid;
     box-sizing: 2px;
     border-color: rgb(86, 86, 86);
     border-radius: 10px;
 }
-/* body nav #remote
-{
-    position: fixed;
-    width : 12.5%;
-    height : auto;
-    right: 2.2%;
-    top: 25%;
-} */
+
 body nav #buttononoff-page2,
-body nav #buttononoffpage1
+body nav #buttononoffpage1,
+body #navHistory #buttononoff,
+body nav #buttononoffpage4
 {
     width : 0.5rem;
     height : 0.5rem;
     margin-left: 1.2rem;
 }
+
 body nav #buttonhome-page2,
-body nav #buttonhomepage1
+body nav #buttonhomepage1,
+body nav #buttonhomepage4,
+body #navHistory #buttonhome
 {
-    /*width : 20%;
-    height : 20%;*/
     width: 1.6rem;
     height: 1.6rem;
-    right: 4.7%;
-    top: 27.5%;
 }
+
 body nav #buttoncv-page2,
-body nav #buttoncvpage1
+body nav #buttoncvpage1,
+body nav #buttoncvpage4,
+body #navHistory #buttoncv
 {
     width : 1.6rem;
     height : 1.6rem;
-    right: 4.7%;
-    top: 32.5%;
 }
+
 body nav #buttonhistory-page2,
-body nav #buttonhistorypage1
+body nav #buttonhistorypage1,
+body nav #buttonhistorypage4,
+body #navHistory #buttonhistory
 {
     width : 1.6rem;
     height : 1.6rem;
-    right: 4.34%;
-    top: 37.5%;
 }
 
 body nav #buttonsecret-page2,
-body nav #buttonsecretpage1
+body nav #buttonsecretpage1,
+body #navHistory #buttonsecret,
+body nav #buttonsecretpage4
 {
     width : 1.6rem;
     height : 1.6rem;
-    right: 4.34%;
-    top: 42.5%;
 }
 
 /* Eddy part*/
@@ -95,35 +87,9 @@ body nav #buttonsecretpage1
     margin-right: 19.5%;
 }
 
-
-
 #bodyHistory {
-
     background-color: 010101;
     color: 7EB0E3;
-
-}
-
-
-
-#navHistory {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width : 12.5%;
-    height : 140px;
-    right: 2%;
-    top: 30%;
-    padding: 1px;
-    /*background-image: url("../images/remotenobutton.png");
-    background-size: cover;*/
-    background-color: rgb(176, 176, 176);
-    border: 4px solid;
-    box-sizing: 2px;
-    border-color: rgb(86, 86, 86);
-    border-radius: 10px;
 }
 
 .h1-cv {
@@ -209,6 +175,7 @@ body nav #buttonsecretpage1
 .label-cv {
     font-size: 1rem;
 }
+
 .button {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -231,19 +198,18 @@ Barre de progression
     --white-weapon: #224e7a;
     --tactical-drive: #2e77c1;
     --infiltration: #4e9ceb;
-    --escape: #6eb1f5;
-    
-  }
+    --escape: #6eb1f5;   
+}
   
-  .progressbar-wrapper {
+.progressbar-wrapper {
     background-color: #dfe6e9;
     color: white;
     font-weight: 700;
     border-radius: 15px;
     width: 100%;
-  }
+}
   
-  .progressbar {
+.progressbar {
     background-color: var(--progress);
     color: rgb(193, 193, 193);
     text-align: right;
@@ -253,32 +219,31 @@ Barre de progression
     font-size: 0.8rem;
     border-radius: 10px;
     width: 100%;
-  }
-
+}
   
-  .progressbar[title="martial-art"] {
-     background-color: var(--martial-art);
-  }
+.progressbar[title="martial-art"] {
+    background-color: var(--martial-art);
+}
     
-  .progressbar[title="fire-weapon"] {
+.progressbar[title="fire-weapon"] {
     background-color: var(--fire-weapon);
- }
+}
  
- .progressbar[title="white-weapon"] {
+.progressbar[title="white-weapon"] {
     background-color: var(--white-weapon);
- }
+}
 
- .progressbar[title="tactical-drive"] {
+.progressbar[title="tactical-drive"] {
     background-color: var(--tactical-drive);
- }
+}
 
- .progressbar[title="infiltration"] {
+.progressbar[title="infiltration"] {
     background-color: var(--infiltration);
- }
+}
 
-  .progressbar[title="escape"] {
+.progressbar[title="escape"] {
     background-color: var(--escape);
- }
+}
 
 /*End of Eddy part*/
 
@@ -294,9 +259,6 @@ body main,
 #bodyHome {
     color: 7EB0E3;
     background-color: 010101;
-
-    
-
 }
 
 body.h1Home {
@@ -338,11 +300,9 @@ body #cof {
     top: 0;
     left: 0;
     z-index: -1;
-
 }
 
 .positiontext {
-
     text-align: center;
     vertical-align: middle;
 }
@@ -350,6 +310,7 @@ body #cof {
 .profil1{
     width: 100%
 }
+
 body main .positiontextbackground-cof {
     font-size: 20px;
     padding-left: 15%;
@@ -361,24 +322,20 @@ body main .positiontextbackground-cof {
     background-size: cover;
     background-position: center;
     min-height: 10px;
-
    font-family:Manrope;
-
-
 }
- 
-*{
-    box-sizing: border-box;
-}
+
 .headerSecret{
     display: flex;
     justify-content: center;
     align-items: center;    
     flex-direction: column;
 }
+
 .h1Secret, .h2Secret, .h3Secret {
     font-family: JWfont;
 }  
+
 .bodySecret{
     background-color: 010101;
     font-weight: normal;
@@ -398,6 +355,7 @@ body main .positiontextbackground-cof {
     margin: 0 ;
     height: 5rem;
 }
+
 .h3Secret{
     display: flex;
     justify-content: center;
@@ -409,124 +367,41 @@ body main .positiontextbackground-cof {
     letter-spacing: 0.1rem;
 }
 
-
-
-
-/* body nav #remote
-{
-    position: fixed;
-    width : 12.5%;
-    height : auto;
-    right: 2.2%;
-    top: 25%;
-} */
-
-
-
-body #navHistory #buttononoff {
-
-    width: 0.5rem;
-    height: 0.5rem;
-    margin-top: 0.3rem;
-    margin-left: 100%;
-
-}
-
-
-
-body #navHistory #buttonhome {
-
-    /*width : 20%;
-    height : 20%;*/
-    max-width: 25px;
-    max-height: 25px;
-
-}
-
-
-
-body #navHistory #buttoncv {
-
-    width: 25px;
-    height: 25px;
-
-}
-
-
-
-body #navHistory #buttonhistory {
-
-    width: 25px;
-    height: 25px;
-
-}
-
-
-
-body #navHistory #buttonsecret {
-
-    width: 25px;
-    height: 25px;
-
-}
-
-
-
 body .img-cv {
-
     width: 100%;
     height: 4rem;
-
 }
 
-
-
 #history_title {
-
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     width: auto;
-
 }
 
-
-
 .h1History {
-
     font-size: 5rem;
     font-family: JWfont;
     height: 5rem;
-
 }
 
-
-
 .h2History {
-
     font-size: 4rem;
     font-family: JWfont;
     color: #551051;
-
 }
 
-
-
 .title-movie-synopsis {
-
     text-align: center;
     margin-bottom: 1rem;
     padding-left: 0.5rem;
     padding-top: 0.5rem;
     font-size: 1.5rem;
     font-family: Manrope;
-
 }
 
-
 #box_synopsis {
-
     display: grid;
     /* grid-template-columns: repeat(2, 5fr); */
     grid-template-rows: repeat(2, 9rem);
@@ -536,11 +411,9 @@ body .img-cv {
     height: 33rem;
     width: 95.6%;
     /* background-color: aliceblue; */
-
 }
 
 .p1 {
-
     display: block;
     width: 70%;
     height: 8rem;
@@ -549,45 +422,31 @@ body .img-cv {
     border-radius: 5%;
     font-size: 0.9rem;
     box-shadow: #456F99 0px 7px 20px 0px;
-
 }
 
-
-
 .h4Movie {
-
     font-size: 1.2rem;
     text-align: center;
     margin-top: 0.5rem;
     margin-left: 0.5rem;
     color: #84187e;
-
 }
 
 #box_synopsis p {
-
     margin-right: 0.5rem;
     padding-left: 0.5rem;
     padding-top: 0.5rem;
     font-family: Manrope;
-
 }
 
-
-
 body .img-cv2 {
-
     margin-top: 4rem;
     width: 75%;
     height: 9rem;
     box-shadow: #456F99 0px 7px 30px 0px;
-
 }
 
-
-
 body #movie_resume {
-
     background-color: rgba(128, 128, 128, 0.323);
     width: 80%;
     margin-bottom: 2rem;
@@ -596,87 +455,42 @@ body #movie_resume {
     padding-right: 0.5rem;
     font-size: 1.2rem;
     box-shadow: #456F99 0px 7px 30px 0px;
-
 }
 
 .title-movie-resume {
-
     text-align: center;
     font-size: 1.5rem;
     font-family: Manrope;
     margin-bottom: 1rem;
     margin-top: 2rem;
-
 }
 
 
 #movie_resume p {
-
     text-align: center;
     font-size: 0.9rem;
     padding-bottom: 1.5rem;
     font-family: Manrope;
-
 }
 
 
 
 .icon-text {
-
     bottom: 1.5rem;
     font-size: 1.5rem;
     color: #84187e;
     text-align: center;
-
 }
 
 
 
 .icon-movie {
-
     position: relative;
     height: 1.5rem;
     width: 1.5rem;
     margin-top: 0.5rem;
     margin-left: 3.3rem;
     top: 1.5rem;
-}
-body nav #buttononoffpage4
-{
-    width : 0.5rem;
-    height : 0.5rem;
-    margin-left: 1.2rem;
-    position: relative;
-}
-body nav #buttonhomepage4
-{
-    /*width : 20%;
-    height : 20%;*/
-    width : 1.6rem;
-    height : 1.6rem;
-    right: 4.7%;
-    top: 27.5%;
-}
-body nav #buttoncvpage4
-{
-    width : 1.6rem;
-    height : 1.6rem;
-    right: 4.7%;
-    top: 32.5%;
-}
-body nav #buttonhistorypage4
-{
-    width : 1.6rem;
-    height : 1.6rem;
-    right: 4.34%;
-    top: 37.5%;
-}
-body nav #buttonsecretpage4
-{
-    width : 1.6rem;
-    height : 1.6rem;
-    right: 4.34%;
-    top: 42.5%;
 }
 
 body .mainSecret{
@@ -710,6 +524,7 @@ body main .wetried{
     padding-left: 10%;
     padding-right: 5%;
 }
+
 body main .wetried .h4Secret {
     background-color: #333232;
    color:  #7EB0E3;
@@ -721,10 +536,6 @@ body main .wetried .h4Secret {
    font-weight:bolder;
    font-size: 1.7rem;
 }
-/* body main .wetried p {
-    margin: 0;
-    padding: 0;
- } */
 
 body main .wetried .vilainsBlock{
     display: flex;
@@ -732,31 +543,40 @@ body main .wetried .vilainsBlock{
     justify-content: space-between;
     align-items: center;
 }
+
 body main .wetried .vilainsBlock p{
 margin-left: 5%;
 font-size: 1.2rem;
 }
+
 body main .wetried .vilainsBlock span{
     color: #83147d;
-    }
+}
+
 body main .wetried .vilainsBlock #viggoDesc{
     padding-left: 2%;
 }
+
 body main .wetried .vilainsBlock #iosefDesc{
     padding-left: 0%;
 }
+
 body main .wetried .vilainsBlock #santinoDesc{
     padding-left: 1%;
 }
+
 body main .wetried .vilainsBlock #cassianDesc{
     padding-left: 11%;
 }
+
 body main .wetried .vilainsBlock #adjucatorDesc{
     padding-left: 6%;
 }
+
 body main .wetried .vilainsBlock #zeroDesc{
     padding-left: 12%;
 }
+
 body main .wetried .vilainsBlock #marquisDesc{
     padding-left: 10%;
 }
@@ -765,53 +585,55 @@ body main .wetried .vilainsBlock #marquisDesc{
     display: none;
     font-style: italic;
 }
+
 .allDesc .noneofthatWorked{
  color: #3163ec;
 }
 
- body main .wetried .vilainsBlock #viggoImg {
+body main .wetried .vilainsBlock #viggoImg {
     height: 40%;
     width: 40%;
- }
+}
 
- body main .wetried .vilainsBlock #iosefImg {
-
+body main .wetried .vilainsBlock #iosefImg {
     height: 45%;
     width: 45%;
- }
- body main .wetried .vilainsBlock #santinoImg {
+}
 
+body main .wetried .vilainsBlock #santinoImg {
     height: 45%;
     width: 45%;
- }
- body main .wetried .vilainsBlock #cassianImg {
+}
 
+body main .wetried .vilainsBlock #cassianImg {
     height: 35%;
     width: 35%;
- }
- body main .wetried .vilainsBlock #adjucatorImg {
+}
 
+body main .wetried .vilainsBlock #adjucatorImg {
     height: 40%;
     width: 40%;
- }
- body main .wetried .vilainsBlock #zeroImg {
+}
 
+body main .wetried .vilainsBlock #zeroImg {
     height: 35%;
     width: 35%;
- }
- body main .wetried .vilainsBlock #marquisImg {
+}
 
+body main .wetried .vilainsBlock #marquisImg {
     height: 35%;
     width: 35%;
- }
- #goal{
+}
+
+#goal{
     color: #3163ec;
- }
- #whatWeHiredYouFor{
+}
+
+#whatWeHiredYouFor{
     font-size: 1rem;
     background-color: #333232;
     width: 100%;
     padding: 10%;
     border-radius: 10px;
     margin-right: 5%;
- }
+}
