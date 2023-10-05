@@ -30,7 +30,7 @@ img:hover {
 
 
 
-body {
+#bodyHistory {
 
     background-color: 010101;
     color: 7EB0E3;
@@ -39,7 +39,7 @@ body {
 
 /* Télécommande Nav */
 
-nav {
+#navHistory {
 
     position: fixed;
     display: flex;
@@ -75,57 +75,52 @@ nav {
 
 
 
-body nav #buttononoff {
+body #navHistory #buttononoff {
 
     width: 2rem;
     height: 2rem;
     margin-left: 4.5rem;
     margin-top: 1rem;
 
-
 }
 
 
 
-body nav #buttonhome {
+body #navHistory #buttonhome {
 
     width: 5rem;
     height: 5.7rem;
     margin-top: 0.3rem;
 
-
 }
 
 
 
-body nav #buttoncv {
+body #navHistory #buttoncv {
 
     width: 5rem;
     height: 5.7rem;
     margin-top: 0.3rem;
 
-
 }
 
 
 
-body nav #buttonhistory {
+body #navHistory #buttonhistory {
 
     width: 5rem;
     height: 5.7rem;
     margin-top: 0.3rem;
 
-
 }
 
 
 
-body nav #buttonsecret {
+body #navHistory #buttonsecret {
 
     width: 5rem;
     height: 5.7rem;
     margin-top: 0.3rem;
-
 
 }
 
@@ -137,6 +132,7 @@ body .mainHistory {
 
     margin-left: 18%;
     margin-right: 18%;
+
 }
 
 
@@ -171,7 +167,6 @@ body .img-cv {
     height: 10rem;
     width: 35rem;
 
-
 }
 
 
@@ -191,26 +186,10 @@ body .img-cv {
 
 .title-movie-synopsis {
 
-
     text-align: center;
     font-size: 3rem;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     font-family: Manrope;
-
-}
-
-
-
-body #movie_summary {
-
-    /* background-color: rgba(128, 128, 128, 0.323);
-    height: 15rem;
-    width: 68%; */
-    /* margin: auto; */
-
-    margin-bottom: 2rem;
-    font-size: 1.2rem;
-    border-radius: 15px;
 
 }
 
@@ -227,7 +206,6 @@ body #movie_summary {
     width: 100%;
     /* background-color: aliceblue; */
 
-
 }
 
 
@@ -240,6 +218,7 @@ body #movie_summary {
     border-radius: 1.5rem;
     font-size: 0.9rem;
     padding: 2rem 1rem 2rem 1rem;
+    box-shadow: #456F99 0px 7px 25px 0px;
 
 }
 
@@ -253,7 +232,6 @@ body #movie_summary {
     margin-left: 0.5rem;
     color: #84187e;
 
-
 }
 
 
@@ -266,17 +244,17 @@ body #movie_summary {
     padding-top: 0.5rem;
     font-family: Manrope;
 
-
 }
 
 
 
 body .img-cv2 {
 
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     margin-top: 5rem;
     width: 100%;
     height: 30rem;
+    box-shadow: #456F99 0px 7px 100px 0px;
 
 }
 
@@ -290,8 +268,8 @@ body #movie_resume {
     border-radius: 15px;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: 2rem;
     font-size: 1.2rem;
+    box-shadow: #456F99 0px 7px 90px 0px;
 
 
 
@@ -308,14 +286,12 @@ body #movie_resume {
 
 }
 
-
-
 #movie_resume p {
-
 
     margin-bottom: 5rem;
     font-family: Manrope;
     padding-bottom: 2rem;
+
 
 }
 
@@ -323,12 +299,10 @@ body #movie_resume {
 
 .icon-text {
 
-    position: relative;
-    bottom: 2.5rem;
-    font-size: 2rem;
+    bottom: 3.2rem;
+    font-size: 2.5rem;
     text-align: center;
     color: #84187e;
-
 
 }
 
@@ -336,9 +310,10 @@ body #movie_resume {
 
 .icon-movie {
 
-    height: 3rem;
-    width: 3rem;
-    margin-left: 19rem;
-    margin-top: 1rem;
+    position: relative;
+    top: 3.5rem;
+    height: 4rem;
+    width: 4rem;
+    margin-left: 17rem;
 
 }

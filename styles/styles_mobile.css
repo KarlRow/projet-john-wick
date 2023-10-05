@@ -15,7 +15,7 @@
 
 
 
-body {
+#bodyHistory {
 
     background-color: 010101;
     color: 7EB0E3;
@@ -24,7 +24,7 @@ body {
 
 
 
-nav {
+#navHistory {
 
     position: fixed;
     display: flex;
@@ -60,7 +60,7 @@ nav {
 
 
 
-body nav #buttononoff {
+body #navHistory #buttononoff {
 
     width: 0.5rem;
     height: 0.5rem;
@@ -71,7 +71,7 @@ body nav #buttononoff {
 
 
 
-body nav #buttonhome {
+body #navHistory #buttonhome {
 
     /*width : 20%;
     height : 20%;*/
@@ -82,7 +82,7 @@ body nav #buttonhome {
 
 
 
-body nav #buttoncv {
+body #navHistory #buttoncv {
 
     width: 25px;
     height: 25px;
@@ -91,7 +91,7 @@ body nav #buttoncv {
 
 
 
-body nav #buttonhistory {
+body #navHistory #buttonhistory {
 
     width: 25px;
     height: 25px;
@@ -100,7 +100,7 @@ body nav #buttonhistory {
 
 
 
-body nav #buttonsecret {
+body #navHistory #buttonsecret {
 
     width: 25px;
     height: 25px;
@@ -166,7 +166,7 @@ body .img-cv {
 
     display: grid;
     /* grid-template-columns: repeat(2, 5fr); */
-    grid-template-rows: repeat(2, 8rem);
+    grid-template-rows: repeat(2, 9rem);
     /* column-gap: 10px;
     row-gap: 10px; */
     gap: 8px;
@@ -175,8 +175,6 @@ body .img-cv {
     margin-right: 20%;
     /* background-color: aliceblue; */
 
-
-    
 }
 
 .p1 {
@@ -188,23 +186,24 @@ body .img-cv {
     background-color: rgba(128, 128, 128, 0.323);
     border-radius: 5%;
     font-size: 0.9rem;
+    box-shadow: #456F99 0px 7px 20px 0px;
 
 }
 
 
 
 .h4Movie {
-    
+
     font-size: 1.2rem;
     text-align: center;
     margin-top: 0.5rem;
     margin-left: 0.5rem;
     color: #84187e;
-    
+
 }
 
 #box_synopsis p {
-    
+
     margin-right: 0.5rem;
     padding-left: 0.5rem;
     padding-top: 0.5rem;
@@ -214,15 +213,13 @@ body .img-cv {
 
 
 
-
 body .img-cv2 {
-    
-    margin-bottom: 1rem;
-    margin-top: 2.5rem;
+
+    margin-top: 4rem;
     margin-left: 3.4rem;
     width: 75%;
     height: 9rem;
-   
+    box-shadow: #456F99 0px 7px 30px 0px;
 
 }
 
@@ -235,11 +232,10 @@ body #movie_resume {
     margin-left: 2.7rem;
     margin-bottom: 2rem;
     border-radius: 10px;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     font-size: 1.2rem;
-    
+    box-shadow: #456F99 0px 7px 30px 0px;
 
 }
 
@@ -247,43 +243,41 @@ body #movie_resume {
 
     text-align: center;
     font-size: 1.5rem;
-    margin-bottom: 1rem;
     font-family: Manrope;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
 
 }
 
+
 #movie_resume p {
 
-    
-    margin-bottom: 1rem;
-    font-family: Manrope;
     text-align: center;
     font-size: 0.9rem;
-    padding-bottom: 1rem;
-    
+    padding-bottom: 1.5rem;
+    font-family: Manrope;
+
 }
 
 
 
 .icon-text {
 
-    position: relative;
-    bottom: 1.3rem;
+    bottom: 1.5rem;
     font-size: 1.5rem;
-    text-align: center;
     color: #84187e;
-    
-   
+    text-align: center;
+
 }
 
 
 
 .icon-movie {
 
+    position: relative;
     height: 1.5rem;
     width: 1.5rem;
-    margin-left: 4rem;
-    
-    
-
+    margin-top: 0.5rem;
+    margin-left: 3.3rem;
+    top: 1.5rem;
 }
