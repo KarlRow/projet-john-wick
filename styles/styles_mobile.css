@@ -2,38 +2,42 @@
     font-family: JWfont;
     src:url(commadorNormal.ttf);
 }
+@font-face{
+    font-family: Manrope;
+    src:url(manrope.ttf);
+}
 *{
     box-sizing: border-box;
 }
-header{
+.headerSecret{
     display: flex;
     justify-content: center;
     align-items: center;    
     flex-direction: column;
 }
- h1, h2, h3 {
+.h1Secret, .h2Secret, .h3Secret {
     font-family: JWfont;
 }  
-body{
+.bodySecret{
     background-color: 010101;
     font-weight: normal;
     position: relative;
 }
 
-h1{
+.h1Secret{
     color: #7EB0E3;
     font-size: 5rem;
     margin: 0;
 }
 
-h2{
+.h2Secret{
     color: #551051;
     font-size: 5rem;
     /* letter-spacing: 0.5rem; */
     margin: 0 ;
     height: 5rem;
 }
-h3{
+.h3Secret{
     display: flex;
     justify-content: center;
     text-align: center;
@@ -44,7 +48,7 @@ h3{
     letter-spacing: 0.1rem;
 }
 
-nav{
+.navSecret{
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -71,13 +75,13 @@ nav{
     right: 2.2%;
     top: 25%;
 } */
-body nav #buttononoff
+body nav #buttononoffpage4
 {
     width : 0.5rem;
     height : 0.5rem;
     margin-left: 1.2rem;
 }
-body nav #buttonhome
+body nav #buttonhomepage4
 {
     /*width : 20%;
     height : 20%;*/
@@ -86,21 +90,21 @@ body nav #buttonhome
     right: 4.7%;
     top: 27.5%;
 }
-body nav #buttoncv
+body nav #buttoncvpage4
 {
     width : 1.6rem;
     height : 1.6rem;
     right: 4.7%;
     top: 32.5%;
 }
-body nav #buttonhistory
+body nav #buttonhistorypage4
 {
     width : 1.6rem;
     height : 1.6rem;
     right: 4.34%;
     top: 37.5%;
 }
-body nav #buttonsecret
+body nav #buttonsecretpage4
 {
     width : 1.6rem;
     height : 1.6rem;
