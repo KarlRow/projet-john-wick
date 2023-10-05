@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    margin: 0;
     
 }
 
@@ -14,7 +13,7 @@
     src:url(Manrope.ttf);
 }
 
-nav{
+.nav-cv{
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -41,13 +40,13 @@ nav{
     right: 2.2%;
     top: 25%;
 } */
-body nav #buttononoff
+body nav #buttononoff-page2
 {
-    max-width : 1rem;
+    width : 0.5rem;
     height : 0.5rem;
     margin-left: 1.2rem;
 }
-body nav #buttonhome
+body nav #buttonhome-page2
 {
     /*width : 20%;
     height : 20%;*/
@@ -56,21 +55,21 @@ body nav #buttonhome
     right: 4.7%;
     top: 27.5%;
 }
-body nav #buttoncv
+body nav #buttoncv-page2
 {
     width : 1.6rem;
     height : 1.6rem;
     right: 4.7%;
     top: 32.5%;
 }
-body nav #buttonhistory
+body nav #buttonhistory-page2
 {
     width : 1.6rem;
     height : 1.6rem;
     right: 4.34%;
     top: 37.5%;
 }
-body nav #buttonsecret
+body nav #buttonsecret-page2
 {
     width : 1.6rem;
     height : 1.6rem;
@@ -78,7 +77,8 @@ body nav #buttonsecret
     top: 42.5%;
 }
 
-body {
+/* Eddy part*/
+.body-cv {
     font-family: Manrope;
     font-size: 1rem;
     color: #7EB0E3;
@@ -89,32 +89,38 @@ body {
 
 
 
-h1 {
+.h1-cv {
     text-transform: uppercase;
     font-family: JWfont;
+    font-weight: 700;
     font-size: 4rem;
+    font-weight: 700;
     color: #7EB0E3;
 }
 
-h2 {
+.h2-cv {
     text-transform: uppercase;
     font-family: JWfont;
+    font-weight: 700;
     font-size: 3.5rem;
     color: #551051;
 }
 
-h3 {
+.h3-cv {
+
+    color: #831EAA;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
-h3, img {
+.h3-cv, img {
     display: inline-block;
     padding-left: 0.5rem;
     font-size: 1rem;
     font-family: Manrope;
 }
 
-h1, h2 {
+.h1-cv, .h2-cv {
     text-align: center;
 }
 
@@ -123,17 +129,29 @@ h1, h2 {
     justify-content: center;
 }
 
-p {
+.p-cv {
     font-size: 0.9rem;
+    line-height: 1.2rem;
     color: #7EB0E3;
     padding: 0.5rem;
 }
 
-ul li {
-    font-size: 14px;
+.contact-winston {
+    text-align: center;
+    font-weight: bold;
+    color: #dfe6ed;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-section {
+.list {
+    font-size: 0.9rem;
+    list-style: inside;
+    padding-left: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.section-cv {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
@@ -144,14 +162,40 @@ section {
     box-shadow: #456f99 0px 7px 25px 0px;
 }
 
+.input-cv {
+    margin: .5em;
+    padding: .5rem;
+    background-color: #9ac7f4;
+    border: none;
+    border-radius: 8px;
+}
+
+.label-cv {
+    font-size: 1rem;
+}
+.button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2.5rem;
+    text-align: center;
+    width: 50%;
+    font-family: Manrope;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: #9ac7f4;
+}
+
 /*
 Barre de progression
 */
 
 :root {
     --martial-art: #831EAA;
-    --fire-weapon: #224297;
-    --white-weapon: #456f99;
+    --fire-weapon: #c65bf1;
+    --white-weapon: #224e7a;
+    --tactical-drive: #2e77c1;
+    --infiltration: #4e9ceb;
+    --escape: #6eb1f5;
     
   }
   
@@ -168,7 +212,9 @@ Barre de progression
     color: rgb(193, 193, 193);
     text-align: right;
     padding-right: 0.5rem;
-    font-size: 12px;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    font-size: 0.8rem;
     border-radius: 10px;
     width: 100%;
   }
@@ -184,4 +230,128 @@ Barre de progression
  
  .progressbar[title="white-weapon"] {
     background-color: var(--white-weapon);
+ }
+
+ .progressbar[title="tactical-drive"] {
+    background-color: var(--tactical-drive);
+ }
+
+ .progressbar[title="infiltration"] {
+    background-color: var(--infiltration);
+ }
+
+  .progressbar[title="escape"] {
+    background-color: var(--escape);
+ }
+
+/*End of Eddy part*/
+
+/*Start of Alex Part*/
+body main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 16%;
+}
+
+body main #TV {
+    width : 200px;
+    height : 108px;
+    margin-top: 1rem;
+}
+
+body main .wetried{
+    background-color: 212121;
+    width: 86%;
+    height: fit-content;
+    margin-top: 2rem;
+    color: 7EB0E3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+body main .wetried h4 {
+   color: 831EAA;
+   text-align: center;
+   padding-right: 5%;
+}
+/* body main .wetried p {
+    margin: 0;
+    padding: 0;
+ } */
+
+body main .wetried .vilainsBlock{
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    align-items: center;
+}
+body main .wetried .vilainsBlock p{
+margin-left: 5%;
+}
+body main .wetried .vilainsBlock #viggoDesc{
+    padding-left: 3%;
+}
+body main .wetried .vilainsBlock #iosefDesc{
+    padding-left: 1%;
+}
+body main .wetried .vilainsBlock #cassianDesc{
+    padding-left: 0.8%;
+}
+body main .wetried .vilainsBlock #cassianDesc{
+    padding-left: 10%;
+}
+body main .wetried .vilainsBlock #adjucatorDesc{
+    padding-left: 5%;
+}
+body main .wetried .vilainsBlock #zeroDesc{
+    padding-left: 10%;
+}
+body main .wetried .vilainsBlock #marquisDesc{
+    padding-left: 8%;
+}
+
+.allDesc{
+    display: none;
+}
+
+ body main .wetried .vilainsBlock #viggoImg {
+    height: 40%;
+    width: 40%;
+ }
+
+ body main .wetried .vilainsBlock #iosefImg {
+
+    height: 45%;
+    width: 45%;
+ }
+ body main .wetried .vilainsBlock #santinoImg {
+
+    height: 45%;
+    width: 45%;
+ }
+ body main .wetried .vilainsBlock #cassianImg {
+
+    height: 35%;
+    width: 35%;
+ }
+ body main .wetried .vilainsBlock #adjucatorImg {
+
+    height: 40%;
+    width: 40%;
+ }
+ body main .wetried .vilainsBlock #zeroImg {
+
+    height: 35%;
+    width: 35%;
+ }
+ body main .wetried .vilainsBlock #marquisImg {
+
+    height: 35%;
+    width: 35%;
  }
