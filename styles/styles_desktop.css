@@ -1,8 +1,6 @@
 #bodyHistory {
-
     background-color: 010101;
     color: 7EB0E3;
-
 }
 
 body {
@@ -11,102 +9,43 @@ body {
 
 /* Télécommande Nav */
 
-#navHistory {
+@font-face{
+    font-family: JWfont;
+    src:url(commadorNormal.ttf);
+}
+@font-face{
+    font-family: Manrope;
+    src:url(Manrope.ttf);
+}
 
+#navhome, .navSecret, #navHistory{
     position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    width : 12.5%;
+    height : 500px;
     right: 2%;
-    top: 20%;
+    top: 30%;
+    padding: 3px;
+    /*background-image: url("../images/remotenobutton.png");
+    background-size: cover;*/
     background-color: rgb(176, 176, 176);
-    border: 4px solid;
+    border: 11px solid;
     box-sizing: 2px;
     border-color: rgb(86, 86, 86);
-    border-radius: 35px;
+    border-radius: 3rem;
     opacity: 0.8;
-    padding: 3px;
-    width : 12.5%;
 }
-@font-face{
-    font-family: JWfont;
-    src:url(commadorNormal.ttf);}
-    @font-face{
-        font-family: Manrope;
-        src:url(Manrope.ttf);}
-    #navhome{
-        position: fixed;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        width : 4%;
-        height : 140px;
-        right: 2%;
-        top: 20%;
-        padding: 3px;
-        /*background-image: url("../images/remotenobutton.png");
-        background-size: cover;*/
-        background-color: rgb(176, 176, 176);
-         border: 4px solid;
-        box-sizing: 2px;
-        border-color: rgb(86, 86, 86);
-        border-radius: 10px;
-    }
-    /* body nav #remote
-    {
-        position: fixed;
-        width : 12.5%;
-        height : auto;
-        right: 2.2%;
-        top: 25%;} */
-
-        
-    body nav #buttononoffpage1
-    {
-        width : 0.5rem;
-        height : 0.5rem;
-        margin-left: 1.2rem;
-    }
-    body nav #buttonhomepage1
-    {
-        /*width : 20%;
-        height : 20%;*/
-        max-width: 25px;
-        max-height: 25px;
-        right: 4.7%;
-        top: 27.5%;
-    }
-    body nav #buttoncvpage1
-    {
-        width : 25px;
-        height : 25px;
-        right: 4.7%;
-        top: 32.5%;
-    }
-    body nav #buttonhistorypage1
-    {
-        width : 25px;
-        height : 25px;
-        right: 4.34%;
-        top: 37.5%;
-    }
-    body nav #buttonsecretpage1
-    {
-        width : 25px;
-        height : 25px;
-        right: 4.34%;
-        top: 42.5%;
-    }
-
-    
-    #bodyHome{
-     background-color: 010101;
-     color: 7EB0E3;
+  
+#bodyHome{
+    background-color: 010101;
+    color: 7EB0E3;
     
 }
-    body .profil1 {
+
+body .profil1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -114,21 +53,19 @@ body {
     height: 500px;
     width: 900px;
     box-shadow: #456F99 0px 7px 25px 0px;
-}    
-    body .h1Home {font-family: JWfont; 
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        justify-content: center;
-        font-size: 300px;
-    }
+}
+
+body .h1Home {font-family: JWfont; 
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 300px;
+}
+
 #titre-image {
     src:url(commadorNormal.ttf);
-}
-@font-face{
-    font-family: Manrope;
-    src:url(Manrope.ttf);
 }
 
 header{
@@ -142,6 +79,7 @@ header{
     box-sizing: border-box;
     cursor:url('../images/iconegun30.png'), auto;
 }
+
 img:hover {
     cursor : url('../images/jwicone.png'), auto;
 }
@@ -150,20 +88,16 @@ img:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
 
 #titre-image2{
-
     height: 300px;
     width: 600px;
     margin-right: auto;
     margin-left: auto;
     margin :auto;
-    z-index : -1;
-    
-    
+    z-index : -1;   
 }
 
 body main .positiontextbackground-cof {
@@ -180,7 +114,8 @@ body main .positiontextbackground-cof {
 
  .h1Secret, .h2Secret, .h3Secret {
     font-family: JWfont;
-}  
+}
+
 .body-cv,
 .bodySecret{
     background-color: 010101;
@@ -218,140 +153,71 @@ body main .positiontextbackground-cof {
     letter-spacing: 0.3rem;
 }
 
-.navSecret{
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width : 12.5%;
-    height : 500px;
-    right: 2%;
-    top: 20%;
-    padding: 3px;
-    /*background-image: url("../images/remotenobutton.png");
-    background-size: cover;*/
-    background-color: rgb(176, 176, 176);
-    border: 11px solid;
-    box-sizing: 2px;
-    border-color: rgb(86, 86, 86);
-    border-radius: 5rem;
-    opacity: 0.8;
-
-}
-
-
-
-/* body nav #remote
-{
-    position: fixed;
-    width : 12.5%;
-    height : auto;
-    right: 2.2%;
-    top: 25%;
-} */
-
-
-
-body #navHistory #buttononoff {
-
+body #navHistory #buttononoff, body nav #buttononoffpage1,
+body nav #buttononoffpage4
+ {
     width: 2rem;
     height: 2rem;
-    margin-left: 4.5rem;
-    margin-top: 1rem;
-
+    margin-left: 4rem;
 }
 
-
-
-body #navHistory #buttonhome {
-
+body #navHistory #buttonhome, body nav #buttonhomepage1, 
+body nav #buttonhomepage4 {
     width: 5rem;
-    height: 5.7rem;
+    height: 5rem;
     margin-top: 0.3rem;
-
 }
 
-
-
-body #navHistory #buttoncv {
-
+body #navHistory #buttoncv, body nav #buttoncvpage1, 
+body nav #buttoncvpage4 {
     width: 5rem;
-    height: 5.7rem;
+    height: 5rem;
     margin-top: 0.3rem;
-
 }
 
-
-
-body #navHistory #buttonhistory {
-
+body #navHistory #buttonhistory, body nav #buttonhistorypage1, 
+#buttonhistorypage4  {
     width: 5rem;
-    height: 5.7rem;
+    height: 5rem;
     margin-top: 0.3rem;
-
 }
 
-
-
-body #navHistory #buttonsecret {
-
+body #navHistory #buttonsecret, body nav #buttonsecretpage4, 
+body nav #buttonsecretpage1 {
     width: 5rem;
-    height: 5.7rem;
+    height: 5rem;
     margin-top: 0.3rem;
-
 }
-
-
-/* Body */
-
 
 body .mainHistory {
-
     margin-left: 18%;
     margin-right: 18%;
-
 }
 
-
-
 body .img-cv {
-
     width: 100%;
     height: 15rem;
     margin-bottom: 2rem;
-
 }
 
-
-
 #history_title {
-
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     width: auto;
-
 }
 
-
-
 .h1History {
-
     font-size: 8rem;
     font-family: JWfont;
     text-align: center;
     height: 10rem;
     width: 35rem;
     margin: 0;
-
 }
 
-
-
 .h2History {
-
     font-size: 8rem;
     font-family: JWfont;
     text-align: center;
@@ -359,24 +225,16 @@ body .img-cv {
     margin-top: 2rem;
     color: #551051;
     margin: 0;
-
 }
 
-
-
 .title-movie-synopsis {
-
     text-align: center;
     font-size: 3rem;
     margin-bottom: 3rem;
     font-family: Manrope;
-
 }
 
-
-
 #box_synopsis {
-
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     grid-template-rows: repeat(2, 2fr);
@@ -385,13 +243,9 @@ body .img-cv {
     row-gap: 10px; */
     width: 100%;
     /* background-color: aliceblue; */
-
 }
 
-
-
 .p1 {
-
     display: block;
     text-align: center;
     background-color: rgba(128, 128, 128, 0.323);
@@ -399,49 +253,33 @@ body .img-cv {
     font-size: 0.9rem;
     padding: 2rem 1rem 2rem 1rem;
     box-shadow: #456F99 0px 7px 25px 0px;
-
 }
 
-
-
 .h4Movie {
-
     font-size: 2.5rem;
     text-align: center;
     margin-top: 0.5rem;
     margin-left: 0.5rem;
     color: #84187e;
-
 }
 
-
-
 #box_synopsis p {
-
     font-size: 1.4rem;
     margin-right: 0.5rem;
     padding-left: 0.5rem;
     padding-top: 0.5rem;
     font-family: Manrope;
-
 }
 
-
-
 body .img-cv2 {
-
     margin-bottom: 2rem;
     margin-top: 5rem;
     width: 100%;
     height: 30rem;
     box-shadow: #456F99 0px 7px 100px 0px;
-
 }
 
-
-
 body #movie_resume {
-
     background-color: rgba(128, 128, 128, 0.323);
     /* height: 20rem; */
     width: 100%;
@@ -450,87 +288,34 @@ body #movie_resume {
     padding-right: 2rem;
     font-size: 1.2rem;
     box-shadow: #456F99 0px 7px 90px 0px;
-
-
-
 }
 
 .title-movie-resume {
-
     text-align: center;
     font-size: 3rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-family: Manrope;
-
-
 }
 
 #movie_resume p {
-
     margin-bottom: 5rem;
     font-family: Manrope;
     padding-bottom: 2rem;
-
-
 }
 
-
-
 .icon-text {
-
     bottom: 3.2rem;
     font-size: 2.5rem;
     text-align: center;
     color: #84187e;
-
 }
 
-
-
 .icon-movie {
-
     position: relative;
     top: 3.5rem;
     height: 4rem;
     width: 4rem; 
-
-}
-body nav #buttononoffpage4
-{
-    width : 2rem;
-    height : 2rem;
-    margin-left: 4rem;
-}
-body nav #buttonhomepage4
-{
-    /*width : 20%;
-    height : 20%;*/
-    width :5rem;
-    height :5rem;
-    right: 4.7%;
-    top: 27.5%;
-}
-body nav #buttoncvpage4
-{
-    width :5rem;
-    height :5rem;
-    right: 4.7%;
-    top: 32.5%;
-}
-body nav #buttonhistorypage4
-{
-    width :5rem;
-    height :5rem;
-    right: 4.34%;
-    top: 37.5%;
-}
-body nav #buttonsecretpage4
-{
-    width : 5rem;
-    height : 5rem;
-    right: 4.34%;
-    top: 42.5%;
 }
 
 body .mainSecret{
@@ -566,7 +351,6 @@ body main .wetried{
     padding-right: 5%;
 }
 
-
 h1 {
     font-size: 3rem;
     /* color: rgb(246, 246, 246); */
@@ -583,10 +367,6 @@ body main .wetried .h4Secret {
    font-weight:bolder;
    font-size: 5.5rem;
 }
-/* body main .wetried p {
-    margin: 0;
-    padding: 0;
- } */
 
 body main .wetried .vilainsBlock{
     display: flex;
@@ -595,34 +375,41 @@ body main .wetried .vilainsBlock{
     align-items: center;
     width: 100%;
 }
+
 body main .wetried .vilainsBlock p{
 margin-left: 5%;
 font-size: 2.5rem;
 }
+
 body main .wetried .vilainsBlock span{
     color: #83147d;
 }
 body main .wetried .vilainsBlock #viggoDesc{
     padding-left: 6%;
 }
+
 body main .wetried .vilainsBlock #iosefDesc{
     padding-left: 2%;
 }
+
 body main .wetried .vilainsBlock #santinoDesc{
     padding-left: 4%;
 }
+
 body main .wetried .vilainsBlock #cassianDesc{
     padding-left: 10%;
 }
+
 body main .wetried .vilainsBlock #adjucatorDesc{
     padding-left: 5%;
 }
+
 body main .wetried .vilainsBlock #zeroDesc{
     padding-left: 10%;
 }
+
 body main .wetried .vilainsBlock #marquisDesc{
     padding-left: 8%;
-
 }
 
 .allDesc{
@@ -630,55 +417,57 @@ body main .wetried .vilainsBlock #marquisDesc{
     font-style: italic;
 }
 
- body main .wetried .vilainsBlock #viggoImg {
+body main .wetried .vilainsBlock #viggoImg {
     height: 25%;
     width: 25%;
- }
+}
 
- body main .wetried .vilainsBlock #iosefImg {
-
+body main .wetried .vilainsBlock #iosefImg {
     height: 30%;
     width: 30%;
     margin-top: 1rem;
- }
- body main .wetried .vilainsBlock #santinoImg {
+}
 
+body main .wetried .vilainsBlock #santinoImg {
     height: 30%;
     width: 30%;
     margin-top: 1rem;
- }
- body main .wetried .vilainsBlock #cassianImg {
+}
 
+body main .wetried .vilainsBlock #cassianImg {
     height: 25%;
     width: 25%;
     margin-top: 1rem;
- }
- body main .wetried .vilainsBlock #adjucatorImg {
+}
 
+body main .wetried .vilainsBlock #adjucatorImg {
     height: 25%;
     width: 25%;
     margin-top: 1rem;
- }
- body main .wetried .vilainsBlock #zeroImg {
+}
+
+body main .wetried .vilainsBlock #zeroImg {
 
     height: 27%;
     width: 27%;
     margin-top: 1rem;
- }
- body main .wetried .vilainsBlock #marquisImg {
+}
 
+body main .wetried .vilainsBlock #marquisImg {
     height: 25%;
     width: 25%;
     margin-top: 1rem;
- }
- #goal{
+}
+
+#goal{
     color: #3163ec;
- }
- #whatWeHiredYouFor{
+}
+
+#whatWeHiredYouFor{
     font-size: 2rem;
     background-color: #333232;
     width: 100%;
     padding: 3%;
     border-radius: 10px;
-    margin-right: 5%;
- }
+    margin-right: 5%;   
+}
