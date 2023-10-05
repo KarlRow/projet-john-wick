@@ -82,6 +82,7 @@
     align-items: center;
     height: 500px;
     width: 900px;
+    box-shadow: #456F99 0px 7px 25px 0px;
 }    
     body .h1Home {font-family: JWfont; 
         align-items: center;
@@ -96,6 +97,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 
 #titre-image2{
@@ -106,6 +108,7 @@
     margin-left: auto;
     margin :auto;
     z-index : -1;
+    
     
 }
 
