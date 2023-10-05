@@ -1,0 +1,155 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: 010101;
+    color: 7EB0E3;
+
+}
+
+body #history_title {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    font-size: 20;
+
+
+}
+
+.title-movie-summary {
+    padding-left: 10;
+    padding-top: 10;
+}
+
+.p1 {
+    font-size: 30;
+    color: #551051;
+    padding-bottom: 1rem;
+    
+}
+
+
+
+.p2 {
+    font-size: 17;
+    line-height: 2em;
+
+}
+
+
+nav .img-cv {
+
+    width: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+body .img-cv2 {
+
+    width: 300;
+    height: 150;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5;
+
+
+}
+
+body #movie_summary {
+
+    background-color: rgba(128, 128, 128, 0.323);
+    width: 350;
+    height: 180;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: 35;
+    border-radius: 5px;
+    
+    
+}
+
+.flex-chapter {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1.50rem;
+    width: 75%;
+    
+} 
+
+
+
+
+body #movie_resume1 {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgba(128, 128, 128, 0.323);
+    width: 250;
+    height: 150;
+    margin: auto;
+    margin-top: 35;
+    font-size: 20;
+    border-radius: 5px;
+    padding-left: 10;
+    padding-top: 10;
+
+
+}
+
+body #movie_resume2 {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgba(128, 128, 128, 0.323);
+    width: 250;
+    height: 150;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    font-size: 20;
+    border-radius: 5px;
+    padding-left: 10;
+    padding-top: 10;
+
+
+}
+
+body #movie_resume3 {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgba(128, 128, 128, 0.323);
+    width: 250;
+    height: 150;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    font-size: 20;
+    border-radius: 5px;
+    padding-left: 10;
+    padding-top: 10;
+
+
+}
+
+body #movie_resume4 {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgba(128, 128, 128, 0.323);
+    width: 250;
+    height: 150;
+    margin: auto;
+    margin-top: 1.5rem;
+    font-size: 20;
+    border-radius: 5px;
+    padding-left: 10;
+    padding-top: 10;
+
+
+}
