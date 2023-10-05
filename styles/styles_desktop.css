@@ -94,6 +94,13 @@
     }
 #titre-image {
     src:url(commadorNormal.ttf);
+}
+@font-face{
+    font-family: Manrope;
+    src:url(Manrope.ttf);
+}
+
+header{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,12 +150,14 @@ body main .positiontextbackground-cof {
  .h1Secret, .h2Secret, .h3Secret {
     font-family: JWfont;
 }  
+.body-cv,
 .bodySecret{
     background-color: 010101;
     font-weight: normal;
     position: relative;
 }
 
+.h1-cv,
 .h1Secret{
     display: inline;
     color: #7EB0E3;
@@ -157,13 +166,15 @@ body main .positiontextbackground-cof {
     margin: 0 ;
     margin-top: 1rem; 
 }
-
+.h2-cv,
 .h2Secret{
     color: #551051;
     font-size: 10rem;
     letter-spacing: 0.5rem;
     margin: 0 ;
 }
+
+.h3-cv,
 .h3Secret{
     display: flex;
     justify-content: center;
@@ -272,6 +283,13 @@ body main .wetried{
     padding-left: 10%;
     padding-right: 5%;
 }
+
+
+h1 {
+    font-size: 3rem;
+    color: rgb(246, 246, 246);
+}
+
 body main .wetried .h4Secret {
     background-color: #333232;
    color:  #7EB0E3;
