@@ -4,8 +4,154 @@
 }
 @font-face{
     font-family: Manrope;
-    src:url(manrope.ttf);
+    src:url(Manrope.ttf);}
+#navhome{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width : 12.5%;
+    height : 140px;
+    right: 2%;
+    top: 20%;
+    padding: 3px;
+    /*background-image: url("../images/remotenobutton.png");
+    background-size: cover;*/
+    background-color: rgb(176, 176, 176);
+     border: 4px solid;
+    box-sizing: 2px;
+    border-color: rgb(86, 86, 86);
+    border-radius: 10px;
 }
+/* body nav #remote
+{
+    position: fixed;
+    width : 12.5%;
+    height : auto;
+    right: 2.2%;
+    top: 25%;
+} */
+body nav #buttononoffpage1
+{
+    width : 0.5rem;
+    height : 0.5rem;
+    margin-left: 1.2rem;
+}
+body nav #buttonhomepage1
+{
+    /*width : 20%;
+    height : 20%;*/
+    width: 1.6rem;
+    height: 1.6rem;
+    right: 4.7%;
+    top: 27.5%;
+}
+body nav #buttoncvpage1
+{
+    width : 1.6rem;
+    height : 1.6rem;
+    right: 4.7%;
+    top: 32.5%;
+}
+body nav #buttonhistorypage1
+{
+    width : 1.6rem;
+    height : 1.6rem;
+    right: 4.34%;
+    top: 37.5%;
+}
+body nav #buttonsecretpage1
+{
+    width : 1.6rem;
+    height : 1.6rem;
+    right: 4.34%;
+    top: 42.5%;
+}
+
+#titre-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#bodyHome {
+    color: 7EB0E3;
+    background-color: 010101;
+
+    
+
+}
+
+body.h1Home {
+    font-size: 5rem;
+    font-family: JWfont;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body .profil1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: #456F99 0px 7px 25px 0px;
+}
+
+body #cof {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background-cof {
+    background-image: url(../images/cof.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vw
+}
+
+.position {
+    position: relative;
+    top: 0;
+    left: 0
+}
+
+.positionimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+.positiontext {
+
+    text-align: center;
+    vertical-align: middle;
+}
+
+.profil1{
+    width: 100%
+}
+body main .positiontextbackground-cof {
+    font-size: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align:center;
+    z-index: index 2;
+    background-image: url("../images/cof.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 10px;
+
+   font-family:Manrope;
+
+
+}
+ 
 *{
     box-sizing: border-box;
 }
