@@ -99,7 +99,7 @@ body nav #buttonsecretpage1
 
 #bodyHistory {
 
-    background-color: 010101;
+    background-color: #010101;
     color: 7EB0E3;
 
 }
@@ -378,7 +378,7 @@ body main .positiontextbackground-cof {
     font-family: JWfont;
 }  
 .bodySecret{
-    background-color: 010101;
+    background-color: #010101;
     font-weight: normal;
     position: relative;
 }
@@ -444,54 +444,6 @@ body main .positiontextbackground-cof {
 
 
 /* Richard part */
-
-body #navHistory #buttononoff {
-
-    width: 0.5rem;
-    height: 0.5rem;
-    margin-left: 1.7rem;
-    margin-top: 0.3rem;
-
-}
-
-
-
-body #navHistory #buttonhome {
-
-    /*width : 20%;
-    height : 20%;*/
-    max-width: 25px;
-    max-height: 25px;
-
-}
-
-
-
-body #navHistory #buttoncv {
-
-    width: 25px;
-    height: 25px;
-
-}
-
-
-
-body #navHistory #buttonhistory {
-
-    width: 25px;
-    height: 25px;
-
-}
-
-
-
-body #navHistory #buttonsecret {
-
-    width: 25px;
-    height: 25px;
-    
-
-}
 
 
 body .img-cv {

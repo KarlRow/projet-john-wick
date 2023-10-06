@@ -1,6 +1,6 @@
 #bodyHistory {
 
-    background-color: 010101;
+    background-color: #010101;
     color: 7EB0E3;
 
 }
@@ -102,7 +102,7 @@ body {
 
     
     #bodyHome{
-     background-color: 010101;
+     background-color: #010101;
      color: 7EB0E3;
     
 }
@@ -183,7 +183,7 @@ body main .positiontextbackground-cof {
 }  
 .body-cv,
 .bodySecret{
-    background-color: 010101;
+    background-color: #010101;
     font-weight: normal;
     position: relative;
 }
@@ -254,54 +254,6 @@ body main .positiontextbackground-cof {
 
 /* Richard part */
 
-body #navHistory #buttononoff {
-
-    width: 2rem;
-    height: 2rem;
-    margin-left: 4.5rem;
-    margin-top: 1rem;
-
-}
-
-
-
-body #navHistory #buttonhome {
-
-    width: 5rem;
-    height: 5.7rem;
-    margin-top: 0.3rem;
-
-}
-
-
-
-body #navHistory #buttoncv {
-
-    width: 5rem;
-    height: 5.7rem;
-    margin-top: 0.3rem;
-
-}
-
-
-
-body #navHistory #buttonhistory {
-
-    width: 5rem;
-    height: 5.7rem;
-    margin-top: 0.3rem;
-
-}
-
-
-
-body #navHistory #buttonsecret {
-
-    width: 5rem;
-    height: 5.7rem;
-    margin-top: 0.3rem;
-
-}
 
 
 /* Body */
@@ -563,7 +515,7 @@ body main #TV {
 }
 
 body main .wetried{
-    background-color: 212121;
+    background-color: #212121;
     border-radius: 10px;
     box-shadow: #456F99 0px 7px 25px 0px;
     /* width: 86%; */
