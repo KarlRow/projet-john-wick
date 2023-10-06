@@ -252,6 +252,7 @@ body main .positiontextbackground-cof {
 } */
 
 
+/* Richard part */
 
 body #navHistory #buttononoff {
 
@@ -385,6 +386,7 @@ body .img-cv {
     row-gap: 10px; */
     width: 100%;
     /* background-color: aliceblue; */
+    
 
 }
 
@@ -397,7 +399,7 @@ body .img-cv {
     background-color: rgba(128, 128, 128, 0.323);
     border-radius: 1.5rem;
     font-size: 0.9rem;
-    padding: 2rem 1rem 2rem 1rem;
+    padding-bottom: 4rem;
     box-shadow: #456F99 0px 7px 25px 0px;
 
 }
@@ -408,9 +410,9 @@ body .img-cv {
 
     font-size: 2.5rem;
     text-align: center;
-    margin-top: 0.5rem;
-    margin-left: 0.5rem;
+    margin-top: 2rem;
     color: #84187e;
+    margin-bottom: 0.5rem;
 
 }
 
@@ -450,6 +452,8 @@ body #movie_resume {
     padding-right: 2rem;
     font-size: 1.2rem;
     box-shadow: #456F99 0px 7px 90px 0px;
+    margin-bottom: 2rem;
+    
 
 
 
@@ -460,17 +464,20 @@ body #movie_resume {
     text-align: center;
     font-size: 3rem;
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     font-family: Manrope;
+
 
 
 }
 
 #movie_resume p {
 
-    margin-bottom: 5rem;
+    
     font-family: Manrope;
     padding-bottom: 2rem;
+    margin: 0;
+    
 
 
 }
@@ -479,22 +486,28 @@ body #movie_resume {
 
 .icon-text {
 
-    bottom: 3.2rem;
-    font-size: 2.5rem;
+    
+    font-size: 2.8rem;
     text-align: center;
     color: #84187e;
+    margin: 0;
+    
+    
 
 }
 
 
 
-.icon-movie {
+#movie_resume .icon-movie img {
 
-    position: relative;
-    top: 3.5rem;
-    height: 4rem;
-    width: 4rem; 
+   height: 4rem;
+   width: 4rem;
+   margin: 0;
+   position: relative;
+   top: 3.5rem;
+   left: 14rem;
 
+  
 }
 body nav #buttononoffpage4
 {

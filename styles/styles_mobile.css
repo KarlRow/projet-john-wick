@@ -1,6 +1,7 @@
 * {
 
     box-sizing: border-box;
+    
 
 }
 
@@ -94,7 +95,6 @@ body nav #buttonsecretpage1
     margin-left: 19.5%;
     margin-right: 19.5%;
 }
-
 
 
 #bodyHistory {
@@ -443,6 +443,8 @@ body main .positiontextbackground-cof {
 
 
 
+/* Richard part */
+
 body #navHistory #buttononoff {
 
     width: 0.5rem;
@@ -487,15 +489,17 @@ body #navHistory #buttonsecret {
 
     width: 25px;
     height: 25px;
+    
 
 }
-
 
 
 body .img-cv {
 
     width: 100%;
-    height: 4rem;
+    height: 5rem;
+    
+    
 
 }
 
@@ -508,6 +512,7 @@ body .img-cv {
     justify-content: center;
     flex-direction: column;
     width: auto;
+    
 
 }
 
@@ -518,6 +523,7 @@ body .img-cv {
     font-size: 5rem;
     font-family: JWfont;
     height: 5rem;
+    margin: 0;
 
 }
 
@@ -528,6 +534,9 @@ body .img-cv {
     font-size: 4rem;
     font-family: JWfont;
     color: #551051;
+    margin-top: 0.5rem;
+    margin-bottom: 0.1rem;
+   
 
 }
 
@@ -536,12 +545,13 @@ body .img-cv {
 .title-movie-synopsis {
 
     text-align: center;
-    margin-bottom: 1rem;
     padding-left: 0.5rem;
     padding-top: 0.5rem;
     font-size: 1.5rem;
     font-family: Manrope;
-
+    margin-bottom: 1rem;
+    margin-top: 0.1rem;
+    
 }
 
 
@@ -549,13 +559,14 @@ body .img-cv {
 
     display: grid;
     /* grid-template-columns: repeat(2, 5fr); */
-    grid-template-rows: repeat(2, 9rem);
+    grid-template-rows: repeat(4, 9rem);
     /* column-gap: 10px;
     row-gap: 10px; */
     gap: 8px;
-    height: 33rem;
     width: 95.6%;
     /* background-color: aliceblue; */
+    
+    
 
 }
 
@@ -563,12 +574,16 @@ body .img-cv {
 
     display: block;
     width: 70%;
-    height: 8rem;
     margin-left: 4rem;
     background-color: rgba(128, 128, 128, 0.323);
     border-radius: 5%;
     font-size: 0.9rem;
     box-shadow: #456F99 0px 7px 20px 0px;
+    text-align: center;
+    padding-top: 0.8rem;
+    
+    
+    
 
 }
 
@@ -578,18 +593,20 @@ body .img-cv {
 
     font-size: 1.2rem;
     text-align: center;
-    margin-top: 0.5rem;
-    margin-left: 0.5rem;
     color: #84187e;
+    margin-bottom: 0.5rem;
+    margin-top: 0.1rem;
+    
+    
 
 }
 
 #box_synopsis p {
 
-    margin-right: 0.5rem;
-    padding-left: 0.5rem;
-    padding-top: 0.5rem;
+   text-align: center;
     font-family: Manrope;
+    
+    margin: 0;
 
 }
 
@@ -597,10 +614,11 @@ body .img-cv {
 
 body .img-cv2 {
 
-    margin-top: 4rem;
+    margin-top: 2.5rem;
     width: 75%;
     height: 9rem;
     box-shadow: #456F99 0px 7px 30px 0px;
+    ;
 
 }
 
@@ -610,12 +628,14 @@ body #movie_resume {
 
     background-color: rgba(128, 128, 128, 0.323);
     width: 80%;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     border-radius: 10px;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     font-size: 1.2rem;
     box-shadow: #456F99 0px 7px 30px 0px;
+   
+    
 
 }
 
@@ -636,30 +656,33 @@ body #movie_resume {
     font-size: 0.9rem;
     padding-bottom: 1.5rem;
     font-family: Manrope;
-
+    margin: 0;
+    
 }
 
 
 
 .icon-text {
 
-    bottom: 1.5rem;
     font-size: 1.5rem;
     color: #84187e;
     text-align: center;
+    margin: 0;
 
 }
 
 
 
-.icon-movie {
+#movie_resume .icon-movie img {
 
+    height: 2rem;
+    width: 2rem;
+    margin: 0;
     position: relative;
-    height: 1.5rem;
-    width: 1.5rem;
-    margin-top: 0.5rem;
-    margin-left: 3.3rem;
-    top: 1.5rem;
+    top: 1.9rem;
+    left: 3rem;
+ 
+    
 }
 body nav #buttononoffpage4
 {
@@ -667,6 +690,7 @@ body nav #buttononoffpage4
     height : 0.5rem;
     margin-left: 1.2rem;
     position: relative;
+
 }
 body nav #buttonhomepage4
 {
