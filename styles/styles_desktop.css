@@ -1,5 +1,6 @@
 #bodyHistory {
-    background-color: 010101;
+
+    background-color: #010101;
     color: 7EB0E3;
 }
 
@@ -118,7 +119,7 @@ body main .positiontextbackground-cof {
 
 .body-cv,
 .bodySecret{
-    background-color: 010101;
+    background-color: #010101;
     font-weight: normal;
     position: relative;
 }
@@ -251,16 +252,16 @@ body .img-cv {
     background-color: rgba(128, 128, 128, 0.323);
     border-radius: 1.5rem;
     font-size: 0.9rem;
-    padding: 2rem 1rem 2rem 1rem;
+    padding-bottom: 4rem;
     box-shadow: #456F99 0px 7px 25px 0px;
 }
 
 .h4Movie {
     font-size: 2.5rem;
     text-align: center;
-    margin-top: 0.5rem;
-    margin-left: 0.5rem;
+    margin-top: 2rem;
     color: #84187e;
+    margin-bottom: 0.5rem;
 }
 
 #box_synopsis p {
@@ -288,34 +289,41 @@ body #movie_resume {
     padding-right: 2rem;
     font-size: 1.2rem;
     box-shadow: #456F99 0px 7px 90px 0px;
+    margin-bottom: 2rem;
+    
+
+
+
 }
 
 .title-movie-resume {
     text-align: center;
     font-size: 3rem;
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     font-family: Manrope;
 }
 
-#movie_resume p {
-    margin-bottom: 5rem;
+#movie_resume p { 
     font-family: Manrope;
     padding-bottom: 2rem;
+    margin: 0;
 }
 
-.icon-text {
-    bottom: 3.2rem;
-    font-size: 2.5rem;
+.icon-text {  
+    font-size: 2.8rem;
     text-align: center;
     color: #84187e;
+    margin: 0;
 }
 
-.icon-movie {
-    position: relative;
-    top: 3.5rem;
-    height: 4rem;
-    width: 4rem; 
+#movie_resume .icon-movie img {
+   height: 4rem;
+   width: 4rem;
+   margin: 0;
+   position: relative;
+   top: 3.5rem;
+   left: 14rem; 
 }
 
 body .mainSecret{
@@ -335,7 +343,7 @@ body main #TV {
 }
 
 body main .wetried{
-    background-color: 212121;
+    background-color: #212121;
     border-radius: 10px;
     box-shadow: #456F99 0px 7px 25px 0px;
     /* width: 86%; */
